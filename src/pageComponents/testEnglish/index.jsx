@@ -1,5 +1,5 @@
-// import city from '../../../../assets/city.svg'
-// import watch from '../../../../assets/womanw.svg'
+import city from '../../assets/city.svg'
+import watch from '../../assets/womanw.svg'
 // import Carrousel from '../../reactComponents/carrousel'
 import { Container, DivButton, Main } from './styles'
 
@@ -35,9 +35,10 @@ export const TestEnglish = () => {
                     </p>
                 </aside>
 
-                {/* <img src={watch} alt="American Way Logo - Mulher sorridente lendo livro em Inglês" className='watch' loading='lazy' />
+                <img src={city} alt="American Way City -  Ponte da cidade de San francisco" className='city' loading='lazy' />
 
-                <img src={city} alt="American Way City -  Ponte da cidade de San francisco" className='city' loading='lazy' /> */}
+                <img src={watch} alt="American Way Logo - Mulher sorridente lendo livro em Inglês" className='watch' loading='lazy' />
+
             </Main>
 
 
