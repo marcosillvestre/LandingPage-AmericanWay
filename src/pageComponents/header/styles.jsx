@@ -64,18 +64,18 @@ a{
 .menu-toogle{
 display: block;
 position: absolute;
-top: 0;
+top: 3rem;
 right: 20px;
 cursor: pointer;
             .one{
-        transform: ${props => props.clicked ? "" : "rotate(45deg) translate(-11px,20px)"} ;
+        transform: ${props => props.clicked ? "" : "rotate(45deg) translate(-7px,6px)"} ;
             }
             .two{ 
                 opacity: ${props => props.clicked ? "1" : "0"};
                 
             } 
             .three{
-        transform: ${props => props.clicked ? "" : "rotate(-45deg) translate(-8px,-25px)"} ;
+        transform: ${props => props.clicked ? "" : "rotate(-45deg) translate(6px,-21px)"} ;
             }
 
 }

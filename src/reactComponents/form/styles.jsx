@@ -5,7 +5,6 @@ export const Container = styled.form`
     display: flex;
     flex-direction: column;
     border-radius: 0.9rem;
-    /* height: 58vh; */
     padding: 5rem 2rem;
     width: 40rem;
     justify-content: space-evenly;
@@ -14,9 +13,8 @@ export const Container = styled.form`
     margin: 0 5rem 0 0;
     @media (max-width: 1255px) {
         
-        margin: unset;
-    height: 35vh;
-    padding: 1.9rem 2rem;
+    margin: unset;
+    padding: 2.5rem 2.5rem;
 
     }
 h2{
