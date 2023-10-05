@@ -5,7 +5,6 @@ export const Container = styled.header`
 padding-top: 1.9rem;
 margin-bottom: -6rem;
 width: 100vw;
-background-color: #222;
 @media (max-width: 768px) {
     margin-bottom: -41rem;
     }
@@ -88,7 +87,6 @@ cursor: pointer;
         background-color: #007dff;
         z-index: 100;
         transition-duration: .6s;
-
     }
     
 }
@@ -107,7 +105,9 @@ export const Wrapper = styled.div`
     @media (max-width: 768px) {
         background-color: ${props => props.clicked ? "#fff" : "#007dff"};
         position: absolute;
-        margin: -23rem 40%;
+        top: 40px;
+        left: 50%;
+        transform: translate(-50%, -50%);
 }
 `
 
