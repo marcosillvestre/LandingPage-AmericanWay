@@ -10,12 +10,10 @@ header{
     justify-content: space-around;
     color: #f14477;
     background-color:#f8f8f8;
-    padding: 1rem 1.7rem 2rem 0 ;
+    padding: 3rem 1.7rem 3rem 0 ;
     align-items: center;
-    height: 13rem;
+    height: 16rem;
     z-index: 1;
-
-
 
     p{
         font-size: 3.2rem;
@@ -38,6 +36,7 @@ header{
         }
     }
         @media (max-width: 750px) {
+    height: 13rem;
     font-size: 1.4rem;      
         p{
         font-size: 2rem;
@@ -76,6 +75,7 @@ aside{
 }
 aside > span {
     display: flex;
+    gap: 1rem;
 }
 aside > p {
     width: 100%;
@@ -121,15 +121,22 @@ visibility: hidden;
  .watch{
     translate: 2rem 0;
  }
+
+ @media (max-width: 1500px) {
+.city{
+  display: none;
+ }
+ }
  @media (max-width: 750px) {
     flex-direction: column;
     aside{
+    margin: unset;
     width: 100vw;
-    padding: 0 15rem 0 0 ;
-
+    padding: 5rem  ;
+    justify-content: center;
+h1{
+    text-align: center;
+}
     }
-     .city{
-  display: none;
- }
         }
 `

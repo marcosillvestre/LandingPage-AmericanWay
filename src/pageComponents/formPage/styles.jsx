@@ -10,7 +10,7 @@ display: flex;
 
 justify-content: end;
 align-items: center;
-padding: 0 10rem;
+padding: 0 10rem 0 25rem;
 
 @media (max-width: 1300px) {
     justify-content: center;
@@ -24,7 +24,6 @@ padding: 0 10rem;
 
 
     .container-text{
-
     z-index: 10;
     color: #fff;
     font-size: 4rem;
@@ -34,7 +33,7 @@ padding: 0 10rem;
     justify-content: center;
     width: auto;
     position: absolute;
-    left: 0;
+    left: 55px;
     .text-2{
         font-size: 3.5rem;
     }
@@ -48,9 +47,9 @@ padding: 0 10rem;
 export const Image = styled.img`
     position: absolute;
     height: 90vh;
-    width: 99vw;
+    width: 90vw;
 
-    @media (max-width: 1300px) {
+    @media (max-width: 1500px) {
     display: none;
     }
 

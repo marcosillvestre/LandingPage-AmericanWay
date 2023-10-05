@@ -5,7 +5,7 @@ export const Container = styled.header`
 /* margin-bottom: -6rem; */
 width: 100vw;
 transition: all.7s;
-height: ${props => props.clicked ? "12rem" : "60vh"};
+height: 7rem;
 @media (max-width: 768px) {
     height: ${props => props.clicked ? "12rem" : "100vh"};
     }
