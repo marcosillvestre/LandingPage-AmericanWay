@@ -2,11 +2,12 @@ import styled from 'styled-components'
 
 
 export const Container = styled.header`
-padding-top: 1.9rem;
-margin-bottom: -6rem;
+/* margin-bottom: -6rem; */
 width: 100vw;
+transition: all.9s;
+height: ${props => props.clicked ? "12rem" : "100vh"};
 @media (max-width: 768px) {
-    margin-bottom: -41rem;
+    /* margin-bottom: -41rem; */
     }
 nav > ul{
     display: flex;
@@ -51,13 +52,18 @@ nav > ul > a{
     margin: 23rem auto;
     font-size: 2rem;
     text-align: center;
-a{
-    color: #fff;
-    z-index: 10000;
-    transition-duration: .6s;
-    transform-origin: top;
-        display: ${props => props.clicked ? "none" : "block"};
 
+a{
+    /* color: #fff; */
+    z-index: 10000;
+    transform-origin: top;
+    display: ${props => props.clicked ? "none" : "block"};
+    transition-duration: .8s;
+    line-height: 8rem;
+    text-transform: uppercase;
+&:active{
+    background-color: #ffffff4c;
+}
 }
 }
 .menu-toogle{
@@ -67,14 +73,14 @@ top: 3rem;
 right: 20px;
 cursor: pointer;
             .one{
-        transform: ${props => props.clicked ? "" : "rotate(45deg) translate(-7px,6px)"} ;
+        transform: ${props => props.clicked ? "" : "rotate(45deg) translate(-7px,2px)"} ;
             }
             .two{ 
                 opacity: ${props => props.clicked ? "1" : "0"};
                 
             } 
             .three{
-        transform: ${props => props.clicked ? "" : "rotate(-45deg) translate(6px,-21px)"} ;
+        transform: ${props => props.clicked ? "" : "rotate(-45deg) translate(10px,-21px)"} ;
             }
 
 }
@@ -84,9 +90,11 @@ cursor: pointer;
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color: #007dff;
+        /* background-color: #007dff; */
         z-index: 100;
         transition-duration: .6s;
+        overflow: hidden;
+
     }
     
 }
@@ -103,7 +111,7 @@ export const Wrapper = styled.div`
     justify-content: center;
     z-index: 1000;
     @media (max-width: 768px) {
-        background-color: ${props => props.clicked ? "#fff" : "#007dff"};
+        /* background-color: ${props => props.clicked ? "#fff" : "#007dff"}; */
         position: absolute;
         top: 40px;
         left: 50%;
