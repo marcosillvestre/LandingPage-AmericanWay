@@ -7,7 +7,7 @@ width: 100vw;
 transition: all.7s;
 height: ${props => props.clicked ? "12rem" : "60vh"};
 @media (max-width: 768px) {
-    /* margin-bottom: -41rem; */
+    height: ${props => props.clicked ? "12rem" : "100vh"};
     }
 nav > ul{
     display: flex;
