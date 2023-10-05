@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.main`
-height: 100vh;
+/* height: 160vh; */
 display: flex;
 flex-direction: column;
 
@@ -51,7 +51,10 @@ header{
 `
 
 export const DivButton = styled.div`
-padding: ${props => props.button ? "2.3rem 3rem" : "0.3rem 2rem"};
+display: flex;
+align-items: center;
+justify-content: center;
+height: ${props => props.button ? "6rem" : "3rem"};
 width: ${props => props.button ? "20%" : "50%"};
 font-size: ${props => props.button ? "1.8rem" : "2rem"};
 color: #fff;
@@ -59,7 +62,13 @@ font-weight: 600;
 background-color: #f14477;
 border-radius: 0.8rem;
 cursor: pointer;
-text-align: center;
+@media (max-width: 750px) {
+    height: ${props => props.button ? "9rem" : "3rem"};
+    width: ${props => props.button ? "33.3%" : "50%"};
+    font-size: ${props => props.button ? "1.7rem" : "2rem"};
+    
+        }
+
 `
 
 export const Main = styled.main`
