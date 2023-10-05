@@ -4,10 +4,10 @@ import styled from 'styled-components'
 export const Container = styled.header`
 padding-top: 1.9rem;
 margin-bottom: -6rem;
-width: 100%;
+width: 100vw;
+
 @media (max-width: 768px) {
     margin-bottom: -41rem;
-    
     }
 nav > ul{
     display: flex;

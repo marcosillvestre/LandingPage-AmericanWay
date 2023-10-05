@@ -28,7 +28,7 @@ padding: 0 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     align-items: center;
     z-index: 10;
     color: #fff;
