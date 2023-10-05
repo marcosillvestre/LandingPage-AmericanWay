@@ -10,7 +10,7 @@ header{
     justify-content: space-around;
     color: #f14477;
     background-color:#f8f8f8;
-    padding: 1rem 3.5rem 2rem 0 ;
+    padding: 1rem 1.7rem 2rem 0 ;
     align-items: center;
     height: 13rem;
     z-index: 1;
@@ -29,14 +29,12 @@ header{
         justify-content: center;
         border-right: .12rem solid #737373;
         font-size: 2rem;
-        
-
     }
     .test{
         &:hover{
             background-color: #fff;
             color: #f14477;
-            transition: 0.3s ease-in-out;
+            transition: 0.2s ;
         }
     }
         @media (max-width: 750px) {
@@ -80,7 +78,7 @@ aside > span {
     display: flex;
 }
 aside > p {
-    width: 44rem;
+    width: 100%;
 }
 aside > h1 {
     font-size: 2.8rem;
@@ -121,9 +119,15 @@ visibility: hidden;
     position: absolute;
  }
  .watch{
+    translate: 2rem 0;
  }
  @media (max-width: 750px) {
     flex-direction: column;
+    aside{
+    width: 100vw;
+    padding: 0 15rem 0 0 ;
+
+    }
      .city{
   display: none;
  }
