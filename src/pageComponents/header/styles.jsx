@@ -5,7 +5,7 @@ export const Container = styled.header`
 padding-top: 1.9rem;
 margin-bottom: -6rem;
 width: 100vw;
-
+background-color: #222;
 @media (max-width: 768px) {
     margin-bottom: -41rem;
     }
