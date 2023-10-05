@@ -105,9 +105,9 @@ export const Wrapper = styled.div`
     justify-content: center;
     z-index: 1000;
     @media (max-width: 768px) {
-    background-color: ${props => props.clicked ? "#fff" : "#007dff"};
-    margin: -23rem 42%;
-    position: absolute;
+        background-color: ${props => props.clicked ? "#fff" : "#007dff"};
+        position: absolute;
+        margin: -23rem 40%;
 }
 `
 

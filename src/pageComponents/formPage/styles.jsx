@@ -14,6 +14,8 @@ padding: 0 10rem;
 
 @media (max-width: 1300px) {
     justify-content: center;
+    padding: unset;
+
     }
 @media (max-width: 1075px) {
     flex-direction: column;
@@ -22,22 +24,15 @@ padding: 0 10rem;
 
 
     .container-text{
-    z-index: 10;
-    color: #fff;
-    font-size: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    align-items: center;
+
     z-index: 10;
     color: #fff;
     font-size: 4rem;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 52rem;
-    align-items: center;
+    width: auto;
     position: absolute;
     left: 0;
     .text-2{
