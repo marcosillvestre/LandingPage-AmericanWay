@@ -4,8 +4,8 @@ import styled from 'styled-components'
 export const Container = styled.header`
 /* margin-bottom: -6rem; */
 width: 100vw;
-transition: all.9s;
-height: ${props => props.clicked ? "12rem" : "100vh"};
+transition: all.7s;
+height: ${props => props.clicked ? "12rem" : "60vh"};
 @media (max-width: 768px) {
     /* margin-bottom: -41rem; */
     }
@@ -33,11 +33,12 @@ nav > ul{
 }
 nav > ul > a{
     z-index: 1;
-    text-decoration: none !important ;
+    text-decoration: none ;
     font-weight: bolder;
     color:#222;
     cursor: pointer;
     font-size: 1.8em;
+
     /* @media (max-width: 1600px) {
         font-size: 1.1rem;
     } */
@@ -54,11 +55,10 @@ nav > ul > a{
     text-align: center;
 
 a{
-    /* color: #fff; */
     z-index: 10000;
     transform-origin: top;
+    transition: all.2s;
     display: ${props => props.clicked ? "none" : "block"};
-    transition-duration: .8s;
     line-height: 8rem;
     text-transform: uppercase;
 &:active{
@@ -90,10 +90,8 @@ cursor: pointer;
         left: 0;
         width: 100vw;
         height: 100vh;
-        /* background-color: #007dff; */
         z-index: 100;
-        transition-duration: .6s;
-        overflow: hidden;
+        transition: all.2s;
 
     }
     
@@ -111,7 +109,6 @@ export const Wrapper = styled.div`
     justify-content: center;
     z-index: 1000;
     @media (max-width: 768px) {
-        /* background-color: ${props => props.clicked ? "#fff" : "#007dff"}; */
         position: absolute;
         top: 40px;
         left: 50%;
