@@ -1,5 +1,5 @@
 
-import { FormPage, Header } from '../pageComponents'
+import { FormPage, Header, TestEnglish } from '../pageComponents'
 import { Container } from './styles.jsx'
 function HomePage() {
 
@@ -7,7 +7,7 @@ function HomePage() {
     <Container>
       <Header />
       <FormPage />
-
+      <TestEnglish />
     </Container>
   )
 }
