@@ -20,15 +20,13 @@ justify-content: space-around;
 z-index: 900;
 background-color: #fff;
 
-    
+
 div{
     display: flex;
     gap: 20px;
     width: 100%;
 }
-&:hover > :not(:hover){
-        opacity: .6 ;
-    }
+
     @media (max-width: 1445px) {
 display: grid;
 
@@ -45,4 +43,7 @@ div{
 export const Image = styled.img`
 width: 100%;
 transition: .3s;
+&:hover {
+        scale: 1.03 ;
+    }
 `

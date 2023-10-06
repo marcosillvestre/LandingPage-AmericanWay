@@ -1,5 +1,5 @@
 
-import { FormPage, Header, TestEnglish } from '../pageComponents'
+import { FormPage, Header, TestEnglish, TestEspanish } from '../pageComponents'
 import { Container } from './styles.jsx'
 function HomePage() {
 
@@ -8,6 +8,7 @@ function HomePage() {
       <Header />
       <FormPage />
       <TestEnglish />
+      <TestEspanish />
     </Container>
   )
 }
