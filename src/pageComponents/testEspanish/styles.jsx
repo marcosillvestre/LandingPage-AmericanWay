@@ -7,14 +7,14 @@ flex-direction: column;
 header{
     display: flex;
     justify-content: space-around;
-    color: #f14477;
+    color: #ff6100;
     background-color:#f8f8f8;
     padding: 3rem 1.7rem 3rem 0 ;
     align-items: center;
     height: 16rem;
     z-index: 10;
     p{
-        font-size: 3.2rem;
+        font-size: 2.7rem;
         width: 70%;
         padding: 1rem 1.4rem;
         text-align: center;
@@ -29,7 +29,7 @@ header{
     .test{
         &:hover{
             background-color: #fff;
-            color: #f14477;
+            color:#ff6100;
             transition: 0.2s ;
         }
     }
@@ -76,7 +76,7 @@ justify-content: space-between;
 aside{
     position: absolute;
     right: 0;
-    margin: 8rem 7rem;
+    margin: 8rem 15rem;
     display: grid;
     gap: 2rem;
     font-size: 1.9rem;
@@ -95,10 +95,10 @@ aside > h1 {
 
 .bman{
     z-index: 10;
-    height: 95vh;
+    height: 111vh;
 }
  .city2{
-    margin-top: 33.4rem;
+    margin-top: 38.4rem;
  }
 
 @media (max-width: 1500px) {

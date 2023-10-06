@@ -15,7 +15,7 @@ header{
     z-index: 1;
 
     p{
-        font-size: 3.2rem;
+        font-size: 2.7rem;
         width: 70%;
         padding: 1rem 1.4rem;
         text-align: center;
@@ -92,36 +92,6 @@ aside > h1 {
     font-size: 2.8rem;
 }
 
-       
-
-/* .watch{
-object-fit: contain;
-mix-blend-mode: color-burn;
-translate: -59.99rem 0;
-position: absolute;
-right: -60rem;
-z-index: -1;
-
-@media(max-width: 1200px){
-    height: 70rem;
-    translate: -58rem -5rem;
-}
-@media(max-width: 860px){
-    height: 40rem;
-    margin-top: 17rem;
-}
-} */
-
-/* .city{
-    translate: -4rem 5rem;
-    @media(max-width: 860px){
-        height: 50rem;
-        translate: -4rem 40rem;
-}
-    @media(max-width: 280px){
-visibility: hidden;
-}
-} */
 
  .city{
     position: absolute;
