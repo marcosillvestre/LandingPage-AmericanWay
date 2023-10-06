@@ -35,13 +35,13 @@ header{
     }
         @media (max-width: 750px) {
     height: 13rem;
-    font-size: 1.4rem;      
+    font-size: 1.2rem;      
         p{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .parag{
         width: 26rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
 
         }
     }
@@ -62,7 +62,7 @@ border-radius: 0.8rem;
 cursor: pointer;
 @media (max-width: 750px) {
     height: ${props => props.button ? "9rem" : "3rem"};
-    width: ${props => props.button ? "33.3%" : "50%"};
+    width: ${props => props.button ? "45%" : "50%"};
     font-size: ${props => props.button ? "1.7rem" : "2rem"};
     
         }
@@ -116,7 +116,7 @@ aside > h1 {
     margin-top: 34rem;
     }
     aside{
-        order: -1;
+    order: -1;
     margin: unset;
     width: 100vw;
     padding: 5rem  ;
@@ -126,5 +126,16 @@ h1{
 }
     }
  }
+
+
+ @media (max-width: 750px) {
+
+    .bman{
+    z-index: 10;
+    height: 41vh;
+    margin-top: 31rem;
+    }
+ }
+
 
 `

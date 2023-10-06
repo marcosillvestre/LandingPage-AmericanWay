@@ -35,7 +35,7 @@ display: grid;
 div{
     display: flex;
     gap: 20px;
-    overflow: scroll;
+    overflow-x: scroll;
 }
     }
 `
