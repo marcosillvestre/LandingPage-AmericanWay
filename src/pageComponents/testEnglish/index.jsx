@@ -1,5 +1,6 @@
 import city from '../../assets/city.svg'
 import watch from '../../assets/womanw.svg'
+import { Carrousel } from '../../reactComponents'
 // import Carrousel from '../../reactComponents/carrousel'
 import { Container, DivButton, Main } from './styles'
 
@@ -41,8 +42,7 @@ export const TestEnglish = () => {
 
             </Main>
 
-
-            {/* <Carrousel /> */}
+            <Carrousel />
 
         </Container>
     )
