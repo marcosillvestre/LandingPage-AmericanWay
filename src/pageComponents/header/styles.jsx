@@ -6,7 +6,7 @@ width: 100vw;
 transition: all.7s;
 height: 7rem;
 @media (max-width: 768px) {
-    height: ${props => props.clicked ? "8vh" : "100vh"};
+    height: ${props => props.clicked ? "70px" : "100vh"};
     }
 nav > ul{
     display: flex;
@@ -116,7 +116,7 @@ export const Wrapper = styled.div`
 `
 
 export const Logo = styled.img`
-    height: 7rem;
+    height: 4rem;
     width: 12rem;
     translate: 0 -5%;
 
