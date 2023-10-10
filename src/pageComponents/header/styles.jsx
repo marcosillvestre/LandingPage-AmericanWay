@@ -2,12 +2,11 @@ import styled from 'styled-components'
 
 
 export const Container = styled.header`
-/* margin-bottom: -6rem; */
 width: 100vw;
 transition: all.7s;
 height: 7rem;
 @media (max-width: 768px) {
-    height: ${props => props.clicked ? "12rem" : "100vh"};
+    height: ${props => props.clicked ? "8vh" : "100vh"};
     }
 nav > ul{
     display: flex;
@@ -19,7 +18,7 @@ nav > ul{
     display: none;
     width: 40px;
     height: 30px ;
-    margin: 10px 5px 0 0;
+    margin: 7px 5px 0 0;
         .one,
         .two, 
         .three{
