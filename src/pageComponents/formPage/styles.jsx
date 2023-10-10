@@ -21,6 +21,10 @@ padding: 0 10rem 0 25rem;
     flex-direction: column;
     gap: 3rem;
     }
+@media (max-width: 350px) {
+    height: 106vh;
+    padding-top: 7rem;
+    }
 
 
     .container-text{

@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.main`
-height: 110.1vh;
 `
 
 export const DivButton = styled.div`
@@ -17,7 +16,7 @@ border-radius: .8rem;
 text-align: center;
 `
 
-export const Main = styled.aside`
+export const Main = styled.main`
 display: flex;
 justify-content: space-between;
 
@@ -40,6 +39,12 @@ article > h1 {
     font-size: 2.8rem;
 }
 
+.tech{
+    z-index: 10;
+    height: 90vh;
+}
+
+
  @media (max-width: 750px) {
     flex-direction: column;
     article{
@@ -55,25 +60,16 @@ article > span {
 justify-content: center;
 text-align: center;
 }
-        }
-
 .tech{
-    z-index: 10;
-    height: 90vh;
-/* object-fit: contain; */
-/* aspect-ratio: 3/3.9; */
-/* @media(max-width: 1600px){
-    aspect-ratio: 4/3.1;
-    translate: 36rem 10rem;
-} */
-}
- @media (max-width: 750px) {
-
-    .tech{
     z-index: 10;
     height: 41vh;
     margin: -3.2rem 0 0 0;
     }
- }
+        }
+
+
+ @media (max-width: 350px) {
+    height: 50vh;
+    }
 
 `
