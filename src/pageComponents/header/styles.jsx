@@ -118,6 +118,6 @@ export const Wrapper = styled.div`
 export const Logo = styled.img`
     height: 4rem;
     width: 12rem;
-    translate: 0 -5%;
+    translate: 0 5%;
 
 `
