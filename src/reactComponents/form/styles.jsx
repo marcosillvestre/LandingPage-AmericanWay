@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.form`
+    order: -2;
    background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -13,8 +14,9 @@ export const Container = styled.form`
     margin: 0 5rem 0 0;
     @media (max-width: 1255px) {
         
-    margin: unset;
-    padding: 2.5rem 2.5rem;
+        margin: unset;
+        padding: 2.5rem 2.5rem;
+        /* margin: -3rem 0 8rem 0; */
 
     }
 h2{
@@ -29,11 +31,6 @@ h2{
     text-align: center;
     margin-top: 2rem;
 }
-/* @media (max-width: 1600px) {
-        padding: 1rem ;
-        margin: auto 5rem auto -160px;
-
-    } */
     p{
         font-size: 115%
     }

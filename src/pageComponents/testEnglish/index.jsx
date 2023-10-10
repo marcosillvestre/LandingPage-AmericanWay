@@ -22,7 +22,7 @@ export const TestEnglish = () => {
             </header>
 
             <Main>
-                <aside>
+                <article>
                     <h1>Curso de Inglês</h1>
                     <span>
                         <DivButton>presencial</DivButton>
@@ -34,11 +34,11 @@ export const TestEnglish = () => {
                         <br />
                         Dessa forma, a diversão também otimiza o tempo de aprendizado, tornando o processo de aprendizado mais leve.
                     </p>
-                </aside>
+                </article>
 
                 <img src={city} alt="American Way City -  Ponte da cidade de San francisco" className='city' />
 
-                <img src={watch} alt="American Way Logo - Mulher sorridente lendo livro em Inglês" className='watch' loading='lazy' />
+                <img src={watch} alt="American Way Logo - Mulher sorridente lendo livro em Inglês" className='watch' />
 
             </Main>
 

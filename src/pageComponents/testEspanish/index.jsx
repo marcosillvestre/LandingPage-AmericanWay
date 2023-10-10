@@ -9,7 +9,8 @@ export const TestEspanish = () => {
                 <img src={bman} alt="American Way Logo" className='bman' loading='lazy' />
                 <img src={city2} alt="American Way Logo" className='city2' loading='lazy' />
 
-                <aside>
+                <article>
+
                     <h1>Curso de Espanhol</h1>
                     <span>
                         <DivButton>presencial</DivButton>
@@ -22,7 +23,7 @@ export const TestEspanish = () => {
 
                         Dentro da sala de aula, deixamos o português de lado e ensinamos por meio de associações e contextualizações que permitem ao aluno obter resultados incríveis em um curto período de tempo.
                     </p>
-                </aside>
+                </article>
             </Main>
 
             <header>

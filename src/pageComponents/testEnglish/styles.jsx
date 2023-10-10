@@ -36,14 +36,16 @@ header{
     }
         @media (max-width: 750px) {
     height: 13rem;
-    font-size: 1.2rem;      
+    font-size: 1.7rem;
         p{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     .parag{
         width: 26rem;
-        font-size: 1.2rem;
-
+        font-size: 1.4rem;
+        strong{
+            font-size: 2.2rem;
+}
         }
     }
 }
@@ -63,8 +65,8 @@ border-radius: 0.8rem;
 cursor: pointer;
 @media (max-width: 750px) {
     height: ${props => props.button ? "9rem" : "3rem"};
-    width: ${props => props.button ? "45%" : "50%"};
-    font-size: ${props => props.button ? "1.7rem" : "2rem"};
+    width: ${props => props.button ? "35%" : "50%"};
+    font-size: ${props => props.button ? "1.9rem" : "2rem"};
     
         }
 
@@ -74,21 +76,21 @@ export const Main = styled.main`
 display: flex;
 justify-content: space-between;
 
-aside{
+article{
     margin: 8rem 0 auto 7rem;
     display: grid;
     gap: 2rem;
     font-size: 1.9rem;
     width: 50rem;
 }
-aside > span {
+article > span {
     display: flex;
     gap: 1rem;
 }
-aside > p {
+article > p {
     width: 100%;
 }
-aside > h1 {
+article > h1 {
     font-size: 2.8rem;
 }
 
@@ -107,7 +109,7 @@ aside > h1 {
  }
  @media (max-width: 750px) {
     flex-direction: column;
-    aside{
+    article{
     margin: unset;
     width: 100vw;
     padding: 5rem  ;

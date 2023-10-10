@@ -15,7 +15,7 @@ padding: 0 10rem 0 25rem;
 @media (max-width: 1300px) {
     justify-content: center;
     padding: unset;
-
+    gap: 4rem;
     }
 @media (max-width: 1075px) {
     flex-direction: column;
@@ -24,6 +24,7 @@ padding: 0 10rem 0 25rem;
 
 
     .container-text{
+    order: -3;
     z-index: 10;
     color: #fff;
     font-size: 4rem;
@@ -51,6 +52,14 @@ export const Image = styled.img`
 
     @media (max-width: 1500px) {
     display: none;
+    }
+    @media (max-width: 1075px) {
+    order: -1;
+    display: block;
+    position: unset;
+    height: 81vh;
+    width: 150vw;
+    order: -1;
     }
 
 `
