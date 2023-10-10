@@ -22,8 +22,9 @@ padding: 0 10rem 0 25rem;
     gap: 3rem;
     }
 @media (max-width: 750px) { 
-    padding-top: 7rem;
+    padding-top: 15rem;
     align-items: center;
+    height: 110vh;
     }
 
 
