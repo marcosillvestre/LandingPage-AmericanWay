@@ -109,7 +109,7 @@ export const Wrapper = styled.div`
     z-index: 1000;
     @media (max-width: 768px) {
         position: absolute;
-        top: 40px;
+        top: 50px;
         left: 50%;
         transform: translate(-50%, -50%);
 }
@@ -118,6 +118,6 @@ export const Wrapper = styled.div`
 export const Logo = styled.img`
     height: 4rem;
     width: 12rem;
-    translate: 0 5%;
+    translate: 0 10%;
 
 `
