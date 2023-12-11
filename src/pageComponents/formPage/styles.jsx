@@ -1,32 +1,24 @@
 import styled from 'styled-components'
 
 
-export const Container = styled.div`
+export const Container = styled.section`
 width: 100vw;
 height: 90.4vh;
 background-repeat: no-repeat;
 background-size: cover;
+
 display: flex;
-
-justify-content: end;
+justify-content: right;
 align-items: center;
-padding: 0 10rem 0 25rem;
+gap: 5rem;
 
-@media (max-width: 1300px) {
-    justify-content: center;
-    padding: unset;
-    gap: 4rem;
-    }
-@media (max-width: 1075px) {
-    flex-direction: column;
-    gap: 3rem;
-    }
+
 @media (max-width: 750px) { 
-    padding-top: 13rem;
-    align-items: center;
-    height: 120vh;
-    }
-
+    flex-direction: column;
+    padding: unset;
+    padding: 13rem 0;
+    justify-content: space-evenly;
+}
 
     .container-text{
     order: -3;
@@ -45,6 +37,7 @@ padding: 0 10rem 0 25rem;
     }
     @media (max-width: 1300px) {
     position: initial;
+    translate: 0 10%;
     }
 }
 
@@ -54,9 +47,9 @@ export const Image = styled.img`
     position: absolute;
     height: 90vh;
     width: 90vw;
-
+    translate: -5% 0;
     @media (max-width: 1500px) {
-    display: none;
+    /* display: none; */
     }
     @media (max-width: 1075px) {
     order: -1;
@@ -65,6 +58,8 @@ export const Image = styled.img`
     height: 81vh;
     width: 150vw;
     order: -1;
+    translate: initial;
+
     }
 
 `

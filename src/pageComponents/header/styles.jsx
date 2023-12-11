@@ -6,7 +6,7 @@ width: 100vw;
 transition: all.7s;
 height: 7rem;
 @media (max-width: 768px) {
-    height: ${props => props.clicked ? "70px" : "100vh"};
+    height: ${props => props.clicked ? "65px" : "100vh"};
     }
 nav > ul{
     display: flex;
@@ -38,9 +38,6 @@ nav > ul > a{
     cursor: pointer;
     font-size: 1.8em;
 
-    /* @media (max-width: 1600px) {
-        font-size: 1.1rem;
-    } */
 }
 @media (max-width: 1600px) {
         padding: .3rem ;

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.form`
     order: -2;
-   background-color: #fff;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     border-radius: 0.9rem;
@@ -12,11 +12,11 @@ export const Container = styled.form`
     z-index: 1000009;
     transition: .7s;
     margin: 0 5rem 0 0;
+    
     @media (max-width: 1255px) {
         
         margin: unset;
         padding: 2.5rem 2.5rem;
-        /* margin: -3rem 0 8rem 0; */
 
     }
 h2{
@@ -53,7 +53,7 @@ border-radius: 10px;
 border: none;
 font-size: 2em;
 font-weight: bolder;
-margin: 1rem 0;
+margin: 2rem 0;
 &:hover{
     font-size: 1.9em;
 }

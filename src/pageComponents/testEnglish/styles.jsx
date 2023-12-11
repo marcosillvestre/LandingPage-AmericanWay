@@ -64,7 +64,7 @@ background-color: #f14477;
 border-radius: 0.8rem;
 cursor: pointer;
 @media (max-width: 750px) {
-    height: ${props => props.button ? "9rem" : "3rem"};
+    height: ${props => props.button ? "6rem" : "3rem"};
     width: ${props => props.button ? "35%" : "50%"};
     font-size: ${props => props.button ? "1.9rem" : "2rem"};
     
