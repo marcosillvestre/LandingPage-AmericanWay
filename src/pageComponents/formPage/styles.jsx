@@ -58,8 +58,8 @@ export const Image = styled.img`
     order: -1;
     display: block;
     position: unset;
-    height: 81vh;
-    width: 150vw;
+    height: 61vh;
+    /* width: 100vw; */
     }
 
 `
