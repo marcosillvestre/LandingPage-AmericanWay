@@ -8,12 +8,13 @@ color: #fff;
 font-weight: 600;
 background-color:#8c52ff;
 
-height: 3rem;
+height: 6rem;
 width: 50%;
 font-size: 2rem;
-
+display: flex;
 border-radius: .8rem;
-text-align: center;
+justify-content: center;
+align-items: center;
 `
 
 export const Main = styled.main`
@@ -25,8 +26,8 @@ article{
     margin: 8rem 0 auto 7rem;
     display: grid;
     gap: 2rem;
-    font-size: 1.9rem;
-    width: 50rem;
+    font-size: 3.2rem;
+    width: 70rem;
 }
 article > span {
     display: flex;
@@ -36,7 +37,7 @@ article > p {
     width: 100%;
 }
 article > h1 {
-    font-size: 2.8rem;
+    font-size: 3.8rem;
 }
 
 .tech{

@@ -15,7 +15,7 @@ header{
     z-index: 1;
 
     p{
-        font-size: 2.7rem;
+        font-size: 3.3rem;
         width: 70%;
         padding: 1rem 1.4rem;
         text-align: center;
@@ -25,7 +25,7 @@ header{
         display: flex;
         justify-content: center;
         border-right: .12rem solid #737373;
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .test{
         &:hover{
@@ -55,9 +55,9 @@ export const DivButton = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-height: ${props => props.button ? "6rem" : "3rem"};
+height:6rem;
 width: ${props => props.button ? "20%" : "50%"};
-font-size: ${props => props.button ? "1.8rem" : "2rem"};
+font-size: ${props => props.button ? "2.8rem" : "2rem"};
 color: #fff;
 font-weight: 600;
 background-color: #f14477;
@@ -80,8 +80,8 @@ article{
     margin: 8rem 0 auto 7rem;
     display: grid;
     gap: 2rem;
-    font-size: 1.9rem;
-    width: 50rem;
+    font-size: 3.2rem;
+    width: 70rem;
 }
 article > span {
     display: flex;
@@ -91,7 +91,7 @@ article > p {
     width: 100%;
 }
 article > h1 {
-    font-size: 2.8rem;
+    font-size: 3.8rem;
 }
 
 

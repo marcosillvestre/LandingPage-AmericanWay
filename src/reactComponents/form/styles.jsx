@@ -11,7 +11,7 @@ export const Container = styled.form`
     justify-content: space-evenly;
     z-index: 1000009;
     transition: .7s;
-    margin: 0 5rem 0 0;
+    margin: 0 15rem 0 0;
     
     @media (max-width: 1255px) {
         
@@ -20,7 +20,7 @@ export const Container = styled.form`
 
     }
 h2{
-    font-size: 3rem;
+    font-size: 3.6rem;
 }
 .container-inputs{
     max-width: 100%;
@@ -32,7 +32,7 @@ h2{
     margin-top: 2rem;
 }
     p{
-        font-size: 115%
+        font-size: 1.5rem;
     }
 `
 
@@ -51,11 +51,12 @@ color: #fff;
 padding: 1.8rem 4rem;
 border-radius: 10px;
 border: none;
-font-size: 2em;
+font-size: 2.5em;
 font-weight: bolder;
 margin: 2rem 0;
 &:hover{
-    font-size: 1.9em;
+    background-color: #b21139;
+
 }
 &:active{
     opacity: .8;

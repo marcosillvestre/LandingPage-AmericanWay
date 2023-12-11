@@ -4,14 +4,15 @@ import styled from 'styled-components'
 export const Container = styled.header`
 width: 100vw;
 transition: all.7s;
-height: 7rem;
+height: 12rem;
+
 @media (max-width: 768px) {
     height: ${props => props.clicked ? "65px" : "100vh"};
     }
 nav > ul{
     display: flex;
     justify-content: space-around;
-    padding: 2rem 0 3rem 0;
+    padding: 4rem 0 3rem 0;
         }
 
     .menu-toogle{
@@ -36,7 +37,7 @@ nav > ul > a{
     font-weight: bolder;
     color:#222;
     cursor: pointer;
-    font-size: 1.8em;
+    font-size: 2.7em;
 
 }
 @media (max-width: 1600px) {
@@ -99,8 +100,8 @@ cursor: pointer;
 export const Wrapper = styled.div`
     background-color: #fff;
     border-radius: 50%;
-    height: 8rem;
-    width: 12rem;
+    height: 14rem;
+    width: 21rem;
     display: flex;
     justify-content: center;
     z-index: 1000;
@@ -113,8 +114,8 @@ export const Wrapper = styled.div`
 `
 
 export const Logo = styled.img`
-    height: 4rem;
-    width: 12rem;
-    translate: 0 10%;
+    height: 10rem;
+    width: 16rem;
+    translate: 0 25%;
 
 `

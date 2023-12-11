@@ -17,11 +17,16 @@ export const TestEspanish = () => {
                         <DivButton>online</DivButton>
                     </span>
                     <p>
-                        Junto às aulas focadas na conversação e interação entre os alunos, a nossa metodologia reúne o vocabulário de diversos países hispanohablantes.
+                        Junto às aulas focadas na conversação e interação
+                        entre os alunos, a nossa metodologia reúne o vocabulário
+                        de diversos países hispanohablantes.
                         <br />
                         <br />
 
-                        Dentro da sala de aula, deixamos o português de lado e ensinamos por meio de associações e contextualizações que permitem ao aluno obter resultados incríveis em um curto período de tempo.
+                        Dentro da sala de aula, deixamos o português de lado
+                        e ensinamos por meio de associações e contextualizações que
+                        permitem ao aluno obter resultados incríveis em um curto
+                        período de tempo.
                     </p>
                 </article>
             </Main>

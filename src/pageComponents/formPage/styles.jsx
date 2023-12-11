@@ -20,23 +20,22 @@ flex-direction: column;
 height: inherit;
 justify-content: space-between;
 
-
 }
 
     .container-text{
     order: -3;
     z-index: 10;
     color: #fff;
-    font-size: 4rem;
+    font-size: 6rem;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     width: auto;
     position: absolute;
-    left: 55px;
+    left: 105px;
     .text-2{
-        font-size: 3.5rem;
+        font-size: 4.5rem;
     }
     @media (max-width: 1300px) {
     position: initial;
