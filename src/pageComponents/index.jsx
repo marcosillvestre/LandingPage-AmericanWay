@@ -5,3 +5,4 @@ export * from './testEnglish';
 export * from './testEspanish';
 export * from './testTech';
 
+export * from './metodology';
