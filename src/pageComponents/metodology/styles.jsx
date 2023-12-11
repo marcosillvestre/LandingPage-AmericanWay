@@ -11,13 +11,12 @@ align-items: center;
 overflow: hidden;
 .nav-boxes{
 width: 100vw;
-padding: 10rem 130rem;
+padding: 10rem 80rem;
 display: grid;
 gap: 6rem;
 grid-template-columns: 
 repeat(auto-fit, minmax(320px, 1fr));
 z-index: 1;
-
 span{
 background-color: #f5f5f5;
 padding: 4rem 3rem;
@@ -41,6 +40,7 @@ img{
 }
 @media (max-width: 750px) {
     .nav-boxes{
+        margin-bottom: -99rem;
         gap: 1rem;
         width: unset;
         padding: 0 3rem;
@@ -71,8 +71,7 @@ translate: 8rem 0;
 }
 `
 
-export const Main = styled.main`
-justify-content: center;
+export const Section = styled.section`
 z-index: 1;
 
 div{

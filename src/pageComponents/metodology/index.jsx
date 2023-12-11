@@ -1,11 +1,11 @@
 import hearth from '../../assets/hearth.svg'
 import methods from '../../services/metodology'
-import { Container, Hearths, Main } from './styles'
+import { Container, Hearths, Section } from './styles'
 
 export const Metodology = () => {
     return (
         <Container>
-            <Main>
+            <Section>
                 <div>
                     <span>
                         <h1> Metodologia </h1>
@@ -29,7 +29,7 @@ export const Metodology = () => {
                     </p>
 
                 </div>
-            </Main>
+            </Section>
 
             <div className='nav-boxes'>
                 {
