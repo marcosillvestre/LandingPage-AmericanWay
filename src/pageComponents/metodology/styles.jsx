@@ -45,7 +45,8 @@ gap: 1rem;
 span{
 padding: 2rem 1rem;
 img{
-    width: 25rem;
+    width: 18em;
+    height: 15em;
 }
 }
 }
