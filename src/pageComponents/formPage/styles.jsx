@@ -11,10 +11,13 @@ display: flex;
 justify-content: right;
 align-items: center;
 
+    svg{
+        fill: none !important;
+    }
 
 @media (max-width: 750px) { 
-    flex-direction: column;
-height: 105.4vh;
+flex-direction: column;
+height: inherit;
 
 }
 
@@ -38,6 +41,7 @@ height: 105.4vh;
     translate: 0 18%;
     margin-bottom: 5rem;
     }
+
 }
 
 `
@@ -56,8 +60,6 @@ export const Image = styled.img`
     position: unset;
     height: 81vh;
     width: 150vw;
-    translate: 0 -10%;
-
     }
 
 `

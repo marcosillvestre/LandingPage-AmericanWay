@@ -12,7 +12,10 @@ export const FormPage = () => {
                 <h1 className='text-2'>fronteiras que cercam o</h1>
                 <h1 className='text-3'>seu sucesso!</h1>
             </div>
-            <Image src={woman} alt="American Way logo - Mulher sorridente" />
+            <Image
+                src={woman} alt="American Way logo - Mulher sorridente"
+                style={{ fill: 'none' }}
+            />
             <Form />
         </Container>
     )
