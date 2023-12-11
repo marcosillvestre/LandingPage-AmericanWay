@@ -18,6 +18,8 @@ align-items: center;
 @media (max-width: 750px) { 
 flex-direction: column;
 height: inherit;
+justify-content: space-between;
+
 
 }
 
@@ -58,8 +60,8 @@ export const Image = styled.img`
     order: -1;
     display: block;
     position: unset;
-    height: 61vh;
-    /* width: 100vw; */
+    height: unset;
+    width: 85vw;
     }
 
 `
