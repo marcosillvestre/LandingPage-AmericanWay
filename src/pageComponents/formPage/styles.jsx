@@ -10,14 +10,10 @@ background-size: cover;
 display: flex;
 justify-content: right;
 align-items: center;
-gap: 5rem;
 
 
 @media (max-width: 750px) { 
     flex-direction: column;
-    padding: unset;
-    padding: 13rem 0;
-    justify-content: space-evenly;
 }
 
     .container-text{
@@ -38,6 +34,7 @@ gap: 5rem;
     @media (max-width: 1300px) {
     position: initial;
     translate: 0 10%;
+    margin-bottom: 5rem;
     }
 }
 
@@ -57,8 +54,7 @@ export const Image = styled.img`
     position: unset;
     height: 81vh;
     width: 150vw;
-    order: -1;
-    translate: initial;
+    translate: 0 -10%;
 
     }
 
