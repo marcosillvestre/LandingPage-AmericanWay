@@ -40,7 +40,8 @@ justify-content: space-between;
     @media (max-width: 1300px) {
     position: initial;
     translate: 0 18%;
-    margin-bottom: 5rem;
+    margin: 5rem 0;
+    font-size: 4rem;
     }
 
 }

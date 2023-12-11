@@ -106,16 +106,21 @@ export const Wrapper = styled.div`
     justify-content: center;
     z-index: 1000;
     @media (max-width: 768px) {
+        width: 17rem;
         position: absolute;
         top: 50px;
         left: 50%;
         transform: translate(-50%, -50%);
-}
-`
+    }
+    `
 
 export const Logo = styled.img`
     height: 10rem;
     width: 16rem;
     translate: 0 25%;
+    @media (max-width: 768px) {
+        width: 13rem;
+        
+    }
 
 `

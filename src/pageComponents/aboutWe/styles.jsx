@@ -19,6 +19,7 @@ export const Section = styled.section`
     
     @media (max-width: 750px) { 
     gap: 2rem;
+    padding: 5rem 2rem 0;
     background-color: #007dff;
     border-radius: 4rem;
     font-size: 2.4rem;
