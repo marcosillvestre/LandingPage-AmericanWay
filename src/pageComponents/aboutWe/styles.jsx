@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const Container = styled.main`
 height: 110vh;
-display: flex;
 background-repeat: no-repeat;
 background-size: cover;
 `
@@ -16,14 +15,18 @@ export const Section = styled.section`
     font-size: 3.2rem;
     display: flex;
     flex-direction: column;
+    padding: 7rem 5rem 2rem 5rem;
     
     @media (max-width: 750px) { 
-    padding: 2rem 3rem;
     gap: 2rem;
     background-color: #007dff;
     border-radius: 4rem;
-    width: 71vw;
-    font-size: 2.6rem;
-    margin:  auto;
+    font-size: 2.4rem;
+    margin:  20rem auto;
+    width: 75vw;
+    p{
+        text-align: justify;
+        width: 100%;
+    }
 }
 `

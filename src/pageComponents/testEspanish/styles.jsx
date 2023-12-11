@@ -122,6 +122,7 @@ article > h1 {
     padding: 5rem  ;
     justify-content: center;
     font-size: 2.9rem;
+        text-align: justify;
 
 h1{
     text-align: center;

@@ -82,6 +82,7 @@ article{
     gap: 2rem;
     font-size: 3.2rem;
     width: 70rem;
+    text-align: justify;
 }
 article > span {
     display: flex;

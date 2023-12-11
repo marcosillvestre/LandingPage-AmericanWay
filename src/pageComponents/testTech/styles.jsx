@@ -15,6 +15,12 @@ display: flex;
 border-radius: .8rem;
 justify-content: center;
 align-items: center;
+@media (max-width: 750px) {
+    height: ${props => props.button ? "6rem" : "3rem"};
+    width: ${props => props.button ? "35%" : "50%"};
+    font-size: ${props => props.button ? "1.9rem" : "2rem"};
+    
+        }
 `
 
 export const Main = styled.main`
@@ -54,6 +60,8 @@ article > h1 {
     padding: 5rem  ;
     justify-content: center;
     font-size: 2.9rem;
+        text-align: justify;
+
 
 h1{
     text-align: center;
