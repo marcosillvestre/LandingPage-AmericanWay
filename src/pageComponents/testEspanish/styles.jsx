@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Container = styled.main`
 display: flex;
 flex-direction: column;
-/* height: 110vh; */
 header{
     display: flex;
     justify-content: space-around;
@@ -122,6 +121,8 @@ article > h1 {
     width: 100vw;
     padding: 5rem  ;
     justify-content: center;
+    font-size: 2.9rem;
+
 h1{
     text-align: center;
 }
@@ -134,7 +135,7 @@ h1{
     .bman{
     z-index: 10;
     height: 41vh;
-    margin: 35rem 0 0 0;
+    margin: 50rem 0 0 0;
     }
  }
 

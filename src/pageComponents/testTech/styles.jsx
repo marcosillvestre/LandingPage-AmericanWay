@@ -53,6 +53,8 @@ article > h1 {
     width: 100vw;
     padding: 5rem  ;
     justify-content: center;
+    font-size: 2.9rem;
+
 h1{
     text-align: center;
 }
