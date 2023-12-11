@@ -8,19 +8,19 @@ display: flex;
 flex-direction: column;
 justify-content: center; 
 align-items: center; 
-
+overflow: hidden;
 .nav-boxes{
 width: 100vw;
-padding: 10rem 85rem;
+padding: 10rem 130rem;
 display: grid;
-gap: 4rem;
+gap: 6rem;
 grid-template-columns: 
-repeat(auto-fit, minmax(200px, 3fr));
+repeat(auto-fit, minmax(320px, 1fr));
+z-index: 1;
 
-    span{
-font-size: .8em;
+span{
 background-color: #f5f5f5;
-padding: 5rem 3rem;
+padding: 4rem 3rem;
 text-align: center;
 border-radius: 2rem;
 display: flex;
@@ -28,22 +28,27 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 gap: 2rem;
-font-size: 1.1rem;
+font-size: 1.6rem;
 hr{
     width: 80%;
 }
-    }
+img{
+    width: 30em;
+    height: 25em;
+}
+}
 
 }
 @media (max-width: 750px) {
-.nav-boxes{
-gap: 1rem;
-    width: unset;
-    padding: 0 3rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(147px, 3fr));
-span{
-padding: 2rem 1rem;
+    .nav-boxes{
+        gap: 1rem;
+        width: unset;
+        padding: 0 3rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(147px, 3fr));
+        span{
+            padding: 2rem 1rem;
+            font-size: 1.5rem;
 img{
     width: 18em;
     height: 15em;
@@ -54,20 +59,21 @@ img{
 
 
 `
-export const Image = styled.img`
-z-index: 100;
-translate: 0rem -7rem;
-height: auto;
-`
+
 export const Hearths = styled.img`
-z-index: 100;
+z-index: 0;
 height: 100vh;
 position: absolute;
 translate: 8rem 0;
+@media (max-width: 750px) {
+    position: relative;
+    translate: -65rem -155rem;
+}
 `
 
 export const Main = styled.main`
 justify-content: center;
+z-index: 1;
 
 div{
     display: grid;
