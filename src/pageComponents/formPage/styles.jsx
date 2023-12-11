@@ -14,6 +14,8 @@ align-items: center;
 
 @media (max-width: 750px) { 
     flex-direction: column;
+height: 105.4vh;
+
 }
 
     .container-text{
@@ -33,7 +35,7 @@ align-items: center;
     }
     @media (max-width: 1300px) {
     position: initial;
-    translate: 0 10%;
+    translate: 0 18%;
     margin-bottom: 5rem;
     }
 }
