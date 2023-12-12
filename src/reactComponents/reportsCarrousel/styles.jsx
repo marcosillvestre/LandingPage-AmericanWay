@@ -39,7 +39,7 @@ h1{
     font-size: 2.4rem;
 .know-more{
     background-color: #fa6000;
-    padding: 4rem 8rem ;
+    padding: 3rem 6rem ;
 }
 }
 

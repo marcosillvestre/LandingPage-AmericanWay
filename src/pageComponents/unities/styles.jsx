@@ -4,22 +4,21 @@ import styled from 'styled-components';
 export const Container = styled.main`
 text-align: center;
 padding: 10rem;
+font-size: 4rem;
+
 h1 {
-    font-size: 8vh;
+    font-size: 2.8em;
 }
 span{
 display: grid;
 grid-template-columns: 
 repeat(auto-fit, minmax(300px, 1fr));
 gap: 2rem;
-
+margin: 5rem 0;
 }
 
 @media (max-width: 750px) {
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    align-items: center;
+    font-size: 2.4rem;
 
 }
 `
@@ -29,9 +28,9 @@ justify-content: center;
 flex-direction: column;
 
 background-color: #dfdfdf;
-gap: 6.5rem;
+gap: 3.5rem;
 
-padding: 5rem;
+padding: 5rem 1.5rem;
 border-radius: 2rem;
 div{
     display: flex;
