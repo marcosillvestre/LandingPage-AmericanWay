@@ -6,3 +6,4 @@ export * from './testEspanish';
 export * from './testTech';
 
 export * from './metodology';
+export * from './unities';

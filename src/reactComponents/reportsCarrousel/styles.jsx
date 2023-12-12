@@ -20,6 +20,7 @@ h1{
 }
 
 .know-more{
+    font-size: 2em;
     background-color: #fa6000;
     padding: 4rem 5rem ;
     border-radius: 2rem;

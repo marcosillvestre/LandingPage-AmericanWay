@@ -45,7 +45,8 @@ img{
         width: unset;
         padding: 0 3rem;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(147px, 3fr));
+        grid-template-columns: 
+        repeat(auto-fit, minmax(147px, 3fr));
         span{
             padding: 2rem 1rem;
             font-size: 1.5rem;
