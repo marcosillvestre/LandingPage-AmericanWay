@@ -1,6 +1,6 @@
 import React from "react";
 import slides from "../../services/reports";
-import { ArrowLeft, ArrowRight, Container, Date, Star } from "./styles";
+import { ArrowLeft, ArrowRight, Carrousel, Container, Data, Star } from "./styles";
 
 export const ReportsCarrousel = () => {
     const [index, setIndex] = React.useState(0)
@@ -9,7 +9,6 @@ export const ReportsCarrousel = () => {
 
     }, [])
 
-    console.log(slides.length)
 
     const handleNext = () => {
         if (index === slides.length - 1) {
@@ -28,11 +27,14 @@ export const ReportsCarrousel = () => {
     }
     return (
         <Container>
-            <div className="container">
-                <button onClick={() => handlePrevious()}> <span> <ArrowLeft /></span> </button>
+
+            <h1>Nossos alunos</h1>
+
+            <Carrousel className="container">
+                <button onClick={() => handlePrevious()}>  <ArrowLeft /> </button>
 
 
-                <Date key={slides[index]?.name} slide={slides[index]}>
+                <Data key={slides[index]?.name} slide={slides[index]}>
 
                     <div className="profile">
 
@@ -52,11 +54,16 @@ export const ReportsCarrousel = () => {
 
                     <p>{slides[index].text}</p>
 
-                </Date>
+                </Data>
 
 
-                <button onClick={() => handleNext()}> <span><ArrowRight /> </span></button>
+                <button onClick={() => handleNext()}> <ArrowRight /> </button>
+            </Carrousel>
 
+            <div className="know-more">
+                <a href="/">
+                    Quero saber mais
+                </a>
             </div>
         </Container>
     );

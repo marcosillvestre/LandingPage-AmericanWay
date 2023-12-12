@@ -4,7 +4,6 @@ const openAnimation = keyframes`
 from {
     height: 65px;
 }
-
 to {
     height: 100vh;
     
@@ -27,7 +26,8 @@ transition: all.7s;
 height: 12rem;
 
 @media (max-width: 768px) {
-    animation: ${({ $clicked }) => ($clicked ? closeAnimation : openAnimation)} 1s ease-in-out forwards;
+    will-change: height;
+    animation: ${({ $clicked }) => ($clicked ? closeAnimation : openAnimation)} 700ms ease-in-out forwards;
     }
 nav > ul{
     display: flex;
@@ -106,7 +106,7 @@ cursor: pointer;
         left: 0;
         width: 100vw;
         height: 100vh;
-        z-index: 100;
+        z-index: 1;
         transition: all.2s;
 
     }

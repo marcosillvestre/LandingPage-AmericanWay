@@ -1,5 +1,6 @@
 
 import { About, FormPage, Header, Metodology, TestEnglish, TestEspanish, TestTech } from '../pageComponents'
+import { ReportsCarrousel } from '../reactComponents/index.jsx'
 import { Container } from './styles.jsx'
 function HomePage() {
 
@@ -12,8 +13,7 @@ function HomePage() {
       <TestTech />
       <About />
       <Metodology />
-
-      {/* <Carrousel /> */}
+      <ReportsCarrousel />
 
     </Container>
   )

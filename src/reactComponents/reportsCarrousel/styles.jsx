@@ -3,8 +3,112 @@ import styled from "styled-components";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import StarIcon from '@mui/icons-material/Star';
 
+
+
+export const Container = styled.div`
+width: 100vw;
+height: 80vh;
+padding: 70rem 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 4rem;
+justify-content: space-around;
+h1{
+    font-size: 2.8em;
+    color: #fa6000;
+}
+
+.know-more{
+    background-color: #fa6000;
+    padding: 4rem 5rem ;
+    border-radius: 2rem;
+    a{
+    color: #fff;
+    line-height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bolder;
+        &:visited{
+    color: #fff;
+}
+}
+}
+@media (max-width: 750px) {
+    font-size: 2.4rem;
+.know-more{
+    background-color: #fa6000;
+    padding: 4rem 8rem ;
+}
+}
+
+
+`
+export const Carrousel = styled.div`
+    display:flex;
+    justify-content: center;
+    height: 20rem;
+    align-items: center;
+    padding: 30rem 0;
+
+    button{
+    background: none;
+    z-index: 1;
+    color: #fff;
+    border-radius: .5rem;
+    padding: 2rem 3rem ;
+    border: none;
+    cursor: pointer;
+
+    svg{
+        height: 6rem;
+    width: 6rem;
+    }
+}
+@media (max-width: 1600px) {
+    margin: 10rem 0;
+    max-width: unset;
+    
+}
+`
+
+
+
+export const Data = styled.span`
+display: flex;
+flex-direction: column;
+
+p{
+    width: 40vw;
+    font-size: 2.5rem;
+    @media (max-width: 1600px) {
+        width: unset;
+        text-align: justify;
+    }
+}
+
+.sub-profile{
+    h2{
+        font-size: 3.5rem;
+    }
+}
+.profile {
+    span{
+        display: flex;
+        margin: 1rem  0;
+        svg{
+            height: 4rem;
+            width: 4rem;
+        }
+        
+    }
+}
+`
+
+
 export const Star = styled(StarIcon)`
 color: #f8cf00dd;
+
 
 `
 
@@ -17,60 +121,4 @@ export const ArrowRight = styled(ArrowBackIosIcon)`
 transform: rotate(180deg);
 color: #ff6100;
 
-`
-
-export const Container = styled.div`
-width: 100vw;
-margin: 0 auto;
-display: flex;
-justify-content: center;
-max-height: 50vh;
-/* background-color: #222; */
-.container{
-    display:flex;
-    max-width: 60%;
-    justify-content: center;
-    height: 20rem;
-    align-items: center;
-}
-div > button{
-    background: none;
-    z-index: 1000;
-    color: #fff;
-    border-radius: .5rem;
-    padding: 2rem 3rem ;
-    border: none;
-    cursor: pointer;
-
-    svg{
-    height: 6rem;
-    width: 6rem;
-    }
-}
-
-`
-
-export const Date = styled.span`
-display: flex;
-flex-direction: column;
-
-p{
-    max-width: 31vw;
-    font-size: clamp(.7rem, 100%, .8rem);
-}
-.profile {
-
-}
-.profile > .sub-profile{
-    h2{
-        font-size: 1.2rem;
-    }
-    span{
-        display: flex;
-        
-    }
-}
-.profile > div > img{
-height: 2.5rem;
-}
 `

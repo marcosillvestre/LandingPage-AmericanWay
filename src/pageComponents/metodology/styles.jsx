@@ -65,7 +65,7 @@ z-index: 0;
 height: 100vh;
 position: absolute;
 translate: 8rem 0;
-@media (max-width: 750px) {
+@media (max-width: 1500px) {
     position: relative;
     translate: -65rem -155rem;
 }
