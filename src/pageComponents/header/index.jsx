@@ -8,7 +8,7 @@ export const Header = () => {
     const classeCSS = bool ? '' : 'on'
 
     return (
-        <Container clicked={bool}>
+        <Container $clicked={bool}>
             <nav>
                 <ul>
                     <a href="">Sobre</a>
@@ -16,7 +16,7 @@ export const Header = () => {
                     <a href="">Cursos</a>
                     <a href="">Teste seu inglês</a>
 
-                    <Wrapper clicked={bool}>
+                    <Wrapper $clicked={bool}>
                         <Logo src={aw} alt="American Way - logo" />
                     </Wrapper>
 

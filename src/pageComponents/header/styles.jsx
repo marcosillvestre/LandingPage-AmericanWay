@@ -1,4 +1,24 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+
+const openAnimation = keyframes`
+from {
+    height: 65px;
+}
+
+to {
+    height: 100vh;
+    
+}
+`
+const closeAnimation = keyframes`
+from {
+    height: 100vh;
+}
+
+to {
+    height: 65px;
+}
+`
 
 
 export const Container = styled.header`
@@ -7,7 +27,7 @@ transition: all.7s;
 height: 12rem;
 
 @media (max-width: 768px) {
-    height: ${props => props.clicked ? "65px" : "100vh"};
+    animation: ${({ $clicked }) => ($clicked ? closeAnimation : openAnimation)} 1s ease-in-out forwards;
     }
 nav > ul{
     display: flex;
@@ -52,10 +72,9 @@ nav > ul > a{
     text-align: center;
 
 a{
-    z-index: 10000;
+    z-index: 1;
     transform-origin: top;
     transition: all.2s;
-    display: ${props => props.clicked ? "none" : "block"};
     line-height: 8rem;
     text-transform: uppercase;
 &:active{
@@ -70,14 +89,14 @@ top: 3rem;
 right: 20px;
 cursor: pointer;
             .one{
-        transform: ${props => props.clicked ? "" : "rotate(45deg) translate(-7px,2px)"} ;
+        transform: ${props => props.$clicked ? "" : "rotate(45deg) translate(-7px,2px)"} ;
             }
             .two{ 
-                opacity: ${props => props.clicked ? "1" : "0"};
+                opacity: ${props => props.$clicked ? "1" : "0"};
                 
             } 
             .three{
-        transform: ${props => props.clicked ? "" : "rotate(-45deg) translate(10px,-21px)"} ;
+        transform: ${props => props.$clicked ? "" : "rotate(-45deg) translate(10px,-21px)"} ;
             }
 
 }

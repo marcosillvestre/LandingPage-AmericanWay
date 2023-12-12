@@ -10,6 +10,7 @@ background-size: cover;
 display: flex;
 justify-content: right;
 align-items: center;
+z-index: 2;
 
     svg{
         fill: none !important;
