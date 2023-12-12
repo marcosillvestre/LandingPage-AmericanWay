@@ -119,7 +119,7 @@ article > h1 {
     order: -1;
     margin: unset;
     width: 100vw;
-    padding: 5rem 7rem  ;
+    padding: 5rem 7rem ;
     justify-content: center;
     font-size: 2.9rem;
         text-align: justify;
