@@ -8,7 +8,7 @@ import StarIcon from '@mui/icons-material/Star';
 export const Container = styled.div`
 width: 100vw;
 height: 80vh;
-padding: 70rem 0;
+padding: 60rem 0;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -50,7 +50,7 @@ export const Carrousel = styled.div`
     justify-content: center;
     height: 20rem;
     align-items: center;
-    padding: 30rem 0;
+    padding: 20rem 0 29rem 0;
 
     button{
     background: none;

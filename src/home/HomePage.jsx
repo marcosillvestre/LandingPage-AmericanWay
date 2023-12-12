@@ -1,5 +1,5 @@
 
-import { About, FormPage, Header, Metodology, TestEnglish, TestEspanish, TestTech, Unities } from '../pageComponents'
+import { About, Ebook, FormPage, Header, Metodology, TestEnglish, TestEspanish, TestTech, Unities } from '../pageComponents'
 import { ReportsCarrousel } from '../reactComponents/index.jsx'
 import { Container } from './styles.jsx'
 function HomePage() {
@@ -15,6 +15,7 @@ function HomePage() {
       <Metodology />
       <ReportsCarrousel />
       <Unities />
+      <Ebook />
     </Container>
   )
 }

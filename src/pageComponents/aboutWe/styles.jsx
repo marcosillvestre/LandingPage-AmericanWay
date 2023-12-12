@@ -4,6 +4,10 @@ export const Container = styled.main`
 height: 110vh;
 background-repeat: no-repeat;
 background-size: cover;
+@media (max-width: 750px) { 
+    background-position: center;
+    
+    }
 `
 
 export const Section = styled.section`
@@ -19,7 +23,7 @@ export const Section = styled.section`
     
     @media (max-width: 750px) { 
     gap: 2rem;
-    padding: 5rem 2rem 0;
+    padding: 5rem 3rem 2rem ;
     background-color: #007dff;
     border-radius: 4rem;
     font-size: 2.4rem;

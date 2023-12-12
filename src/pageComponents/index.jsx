@@ -5,5 +5,6 @@ export * from './testEnglish';
 export * from './testEspanish';
 export * from './testTech';
 
+export * from './ebook';
 export * from './metodology';
 export * from './unities';

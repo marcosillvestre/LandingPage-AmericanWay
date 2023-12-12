@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Container = styled.main`
 text-align: center;
-padding: 10rem;
+padding: 5rem 10rem;
 font-size: 4rem;
 
 h1 {
@@ -19,7 +19,9 @@ margin: 5rem 0;
 
 @media (max-width: 750px) {
     font-size: 2.4rem;
-
+span{
+    justify-content: center;
+}
 }
 `
 export const MapContainer = styled.div`
@@ -57,8 +59,9 @@ border-radius: 2rem;
 
 font-weight: bold;
 font-size: 3rem;
-
-padding: 1rem 2rem;
+margin: auto;
+padding: 1rem 0;
+width: 80%;
 height: 10rem;
 color: #fff;
 background-color: #1c33cf;

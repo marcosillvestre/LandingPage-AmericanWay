@@ -20,7 +20,7 @@ export const Unities = () => {
                                 </p>
                                 <iframe src={res.iframe} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
-                                <p>Contato da unidade:</p>
+                                <p>Contato:</p>
                                 <p>{res.contact}</p>
                             </div>
 
