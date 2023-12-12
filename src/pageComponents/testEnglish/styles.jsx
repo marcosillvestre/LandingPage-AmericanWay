@@ -98,14 +98,20 @@ article > h1 {
 
  .city{
     position: absolute;
+    translate: 10rem 30rem;
  }
  .watch{
-    translate: 2rem 0;
+    translate: 3rem 0;
+    height: 90vh;
  }
 
  @media (max-width: 1500px) {
 .city{
   display: none;
+ }
+  .watch{
+    translate: 3rem 0;
+    height: unset;
  }
  }
  @media (max-width: 750px) {
@@ -113,7 +119,7 @@ article > h1 {
     article{
     margin: unset;
     width: 100vw;
-    padding: 5rem  ;
+    padding: 5rem 7rem;
     justify-content: center;
     font-size: 2.9rem;
 h1{

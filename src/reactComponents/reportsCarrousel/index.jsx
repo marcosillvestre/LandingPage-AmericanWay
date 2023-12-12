@@ -2,7 +2,7 @@ import React from "react";
 import slides from "../../services/reports";
 import { ArrowLeft, ArrowRight, Container, Date, Star } from "./styles";
 
-export const UncontrolledExample = () => {
+export const ReportsCarrousel = () => {
     const [index, setIndex] = React.useState(0)
 
     React.useEffect(() => {

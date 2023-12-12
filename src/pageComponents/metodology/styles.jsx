@@ -11,7 +11,7 @@ align-items: center;
 overflow: hidden;
 .nav-boxes{
 width: 100vw;
-padding: 10rem 80rem;
+padding: 10% 25%;
 display: grid;
 gap: 6rem;
 grid-template-columns: 
@@ -40,7 +40,7 @@ img{
 }
 @media (max-width: 750px) {
     .nav-boxes{
-        margin-bottom: -99rem;
+        margin-bottom: -90rem;
         gap: 1rem;
         width: unset;
         padding: 0 3rem;

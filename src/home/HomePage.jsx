@@ -12,6 +12,9 @@ function HomePage() {
       <TestTech />
       <About />
       <Metodology />
+
+      {/* <Carrousel /> */}
+
     </Container>
   )
 }

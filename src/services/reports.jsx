@@ -12,7 +12,7 @@ const slides = [
     {
         image: st,
         name: "Daise Alves",
-        text: "Venham para American way, a melhor escolha de línguas do mercado, dinâmica e com uma super estrutura para atender todos que querem sobresair no mercado de trabalho e no mundo! 😉🥰❤️.Ótimos professor, com carisma e capacitação de alto nível.Estou adorando, escola localizada no bairro PTB valorizando e trazendo ainda mais crescimento e educação para população.Venham conhecer e se surpriender.! 👏🥰✈️🌐🇧🇷",
+        text: "Venham para American way, a melhor escola de línguas do mercado, dinâmica e com uma super estrutura para atender todos que querem sobresair no mercado de trabalho e no mundo! 😉🥰❤️.Ótimos professor, com carisma e capacitação de alto nível.Estou adorando, escola localizada no bairro PTB valorizando e trazendo ainda mais crescimento e educação para população.Venham conhecer e se surpriender.! 👏🥰✈️🌐🇧🇷",
     },
     {
         image: st1,

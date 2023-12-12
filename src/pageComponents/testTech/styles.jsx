@@ -57,7 +57,7 @@ article > h1 {
     article{
     margin: unset;
     width: 100vw;
-    padding: 5rem  ;
+    padding: 5rem 7rem  ;
     justify-content: center;
     font-size: 2.9rem;
         text-align: justify;
@@ -73,14 +73,11 @@ text-align: center;
 }
 .tech{
     z-index: 10;
-    height: 41vh;
-    margin: -3.2rem 0 0 0;
+    height: unset;
     }
         }
 
 
- @media (max-width: 350px) {
-    height: 50vh;
-    }
+
 
 `
