@@ -5,17 +5,17 @@ import { Container, DivButton, Main } from './styles'
 export const TestEspanish = () => {
     return (
         <Container >
-            <Main>
-                <img src={bman} alt="American Way Logo" className='bman' loading='lazy' />
-                <img src={city2} alt="American Way Logo" className='city2' loading='lazy' />
 
+            <Main>
                 <article>
 
                     <h1>Curso de Espanhol</h1>
+
                     <span>
                         <DivButton>presencial</DivButton>
                         <DivButton>online</DivButton>
                     </span>
+
                     <p>
                         Junto às aulas focadas na conversação e interação
                         entre os alunos, a nossa metodologia reúne o vocabulário
@@ -28,7 +28,13 @@ export const TestEspanish = () => {
                         permitem ao aluno obter resultados incríveis em um curto
                         período de tempo.
                     </p>
+
                 </article>
+
+                <img src={bman} alt="American Way Logo" className='bman' loading='lazy' />
+                <img src={city2} alt="American Way Logo" className='city2' loading='lazy' />
+
+
             </Main>
 
             <header>

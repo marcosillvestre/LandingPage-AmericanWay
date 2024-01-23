@@ -44,12 +44,13 @@ gap: 5rem;
 `
 
 export const Image = styled.img`
-    order: 3;
+    order: 0;
     width: max-content;
     height: 90vh;
     translate: -5% 0;
-
+    
     @media (max-width: 1075px) {
+    order: 3;
     height: auto;
     width: 85vw;
     }

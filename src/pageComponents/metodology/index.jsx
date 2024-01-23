@@ -37,13 +37,11 @@ export const Metodology = () => {
                         <span key={res.id}>
                             <img src={res.img} alt={res.alt} />
                             <hr />
-                            <h2>{res.text}</h2>
+                            <h3>{res.text}</h3>
                         </span>
 
                     ))
                 }
-
-
             </div>
             <Hearths
                 src={hearth}

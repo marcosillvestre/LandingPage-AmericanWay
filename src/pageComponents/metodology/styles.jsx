@@ -9,13 +9,14 @@ flex-direction: column;
 justify-content: center; 
 align-items: center; 
 overflow: hidden;
+
 .nav-boxes{
 width: 100vw;
 padding: 10% 25%;
 display: grid;
 gap: 6rem;
 grid-template-columns: 
-repeat(auto-fit, minmax(320px, 1fr));
+repeat(auto-fit, minmax(320px, 3fr));
 z-index: 1;
 span{
 background-color: #f5f5f5;
