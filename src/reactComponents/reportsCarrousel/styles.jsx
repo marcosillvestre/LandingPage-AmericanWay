@@ -17,6 +17,7 @@ justify-content: space-around;
 h1{
     font-size: 2.8em;
     color: #fa6000;
+    margin: 5rem 0;
 }
 
 .know-more{

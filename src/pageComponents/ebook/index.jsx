@@ -10,7 +10,7 @@ export const Ebook = () => {
                 <h1 >Ebook gratuito</h1>
                 <h4>baixe seu ebook de inglês</h4>
 
-                <div>
+                <div className='container-article'>
                     <article>
                         <p>
                             Aprenda mais de 100 frases que você precisa
@@ -26,7 +26,9 @@ export const Ebook = () => {
                     </article>
 
                     <DownloadEbook>
-                        Baixar ebook
+                        <a href="" >
+                            Baixar ebook
+                        </a>
                     </DownloadEbook>
                 </div>
 

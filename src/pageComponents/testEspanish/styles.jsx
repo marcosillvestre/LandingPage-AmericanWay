@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.main`
+export const Container = styled.section`
 display: flex;
 flex-direction: column;
 header{
@@ -82,40 +82,40 @@ article{
     font-size: 3.3rem;
     width: 70rem;
 }
-article > span {
+span {
     display: flex;
     gap: 1rem;
 }
-article > p {
+p {
     width: 100%;
 }
-article > h1 {
-    font-size: 3.8rem;
+h1 {
+font-size: 3.8rem;
 }
 
 .bman{
-    z-index: 10;
-    height: 111vh;
+z-index: 10;
+height: 111vh;
 }
- .city2{
-    margin-top: 38.4rem;
- }
+.city2{
+margin-top: 38.4rem;
+}
 
 @media (max-width: 1500px) {
 .city2{
-  display: none;
- }
- }
+display: none;
+}
+}
 
  @media (max-width: 1215px) {
     flex-direction: column;
 
     .bman{
-    z-index: 10;
     height: 51vh;
-    margin-top: 34rem;
+    /* margin-top: 34rem; */
     }
     article{
+        /* position: unset; */
     order: -1;
     margin: unset;
     width: 100vw;
@@ -134,9 +134,8 @@ h1{
  @media (max-width: 750px) {
 
     .bman{
-    z-index: 10;
     height: 41vh;
-    margin: 50rem 0 0 0;
+    margin-top: 50rem;
     }
  }
 

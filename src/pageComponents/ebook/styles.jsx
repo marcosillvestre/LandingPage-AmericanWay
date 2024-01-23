@@ -27,12 +27,14 @@ h4{
     font-size: 1em;
 }
 
-div{
-position: absolute;
-margin: 15rem 0 0 10rem;
-display: flex;
-flex-direction: column;
-gap: 3rem;
+.container-article{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 3.4rem;
+    width: fit-content;
+    margin: 15rem 0 0 10rem;
+
     article{
         width: 70rem;
         text-align: justify;
@@ -46,13 +48,16 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    div{
-        position: unset;
-        margin: unset;
+    
+    .container-article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        position: initial;
+        margin: auto;
+
+
     article{
         padding: 5rem 7rem  ;
         text-align: justify;
@@ -66,41 +71,28 @@ img{
 
 
 `
-export const DownloadEbook = styled.span`
-justify-content: center;
+export const DownloadEbook = styled.div`
 background-color: #efab00;
-padding: 4rem 5rem ;
+font-size: 2em;
+padding: 4rem 5rem;
 border-radius: 2rem;
-font-size: 2rem;
+a{
+color: #fff;
+line-height: 100%;
+width: 100%;
+text-decoration: none;
 font-weight: bolder;
+}
+
+&:visited{
+    color: #fff;
+}
 
 @media (max-width: 750px) {
     font-size: 2.4rem;
-.know-more{
-    background-color: #fa6000;
-    padding: 3rem 6rem ;
-}
+    .know-more{
+        padding: 3rem 6rem ;
+    }
 }
 
-/* .know-more{
-    background-color: #fa6000;
-    a{
-    color: #fff;
-    line-height: 100%;
-    width: 100%;
-    text-decoration: none;
-        &:visited{
-    color: #fff;
-}
-}
-}
- */
-
-
-        &:hover{
-            border: solid #fff .2rem;
-            font-size: 1.8rem;
-            transition: .2s;
-        }
-    
 `

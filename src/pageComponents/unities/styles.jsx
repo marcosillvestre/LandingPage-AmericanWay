@@ -32,7 +32,7 @@ flex-direction: column;
 background-color: #dfdfdf;
 gap: 3.5rem;
 
-padding: 5rem 1.5rem;
+padding: 3rem 1.5rem;
 border-radius: 2rem;
 div{
     display: flex;
@@ -62,7 +62,7 @@ font-size: 3rem;
 margin: auto;
 padding: 1rem 0;
 width: 80%;
-height: 10rem;
+height: 7.5rem;
 color: #fff;
 background-color: #1c33cf;
 text-decoration: none;
