@@ -111,13 +111,13 @@ article > h1 {
  }
   .watch{
     translate: 3rem 0;
-    height: unset;
+    height: initial;
  }
  }
  @media (max-width: 750px) {
     flex-direction: column;
     article{
-    margin: unset;
+    margin: initial;
     width: 100vw;
     padding: 5rem 7rem;
     justify-content: center;

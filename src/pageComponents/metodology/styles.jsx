@@ -43,7 +43,7 @@ img{
     .nav-boxes{
         margin-bottom: -90rem;
         gap: 1rem;
-        width: unset;
+        width: initial;
         padding: 0 3rem;
         display: grid;
         grid-template-columns: 

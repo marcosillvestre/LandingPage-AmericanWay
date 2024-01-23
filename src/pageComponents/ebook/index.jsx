@@ -31,8 +31,12 @@ export const Ebook = () => {
                         </a>
                     </DownloadEbook>
                 </div>
-
-                <img src={book} alt="Book - ebook de própria autoria da escola" />
+                <picture>
+                    <source srcSet={book} />
+                    <img
+                        src={book}
+                        alt="Book - ebook de própria autoria da escola" />
+                </picture>
 
             </Section>
 

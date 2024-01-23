@@ -1,17 +1,14 @@
 import styled, { keyframes } from 'styled-components'
 
 const openAnimation = keyframes`
-from {
-    height: 65px;
-}
+
 to {
-    height: 100vh;
-    
+    height: 45vh;
 }
 `
 const closeAnimation = keyframes`
 from {
-    height: 100vh;
+    height: 50vh;
 }
 
 to {
@@ -86,7 +83,7 @@ a{
 display: block;
 position: absolute;
 top: 3rem;
-right: 20px;
+left: 20px;
 cursor: pointer;
             .one{
         transform: ${props => props.$clicked ? "" : "rotate(45deg) translate(-7px,2px)"} ;

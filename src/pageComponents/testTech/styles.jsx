@@ -55,7 +55,7 @@ article > h1 {
  @media (max-width: 750px) {
     flex-direction: column;
     article{
-    margin: unset;
+    margin: initial;
     width: 100vw;
     padding: 5rem 7rem  ;
     justify-content: center;
@@ -73,7 +73,7 @@ text-align: center;
 }
 .tech{
     z-index: 10;
-    height: unset;
+    height: initial;
     }
         }
 

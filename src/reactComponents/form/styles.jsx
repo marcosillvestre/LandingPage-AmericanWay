@@ -14,7 +14,7 @@ export const Container = styled.form`
     
     @media (max-width: 1255px) {
         
-        margin: unset;
+        margin: initial;
         padding: 2.5rem 2.5rem;
 
     }

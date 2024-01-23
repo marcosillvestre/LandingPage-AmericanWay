@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
 width: 100vw;
-height: 90.4vh;
+/* height: 90.4vh; */
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -15,18 +15,16 @@ z-index: 2;
 @media (max-width: 750px) { 
 flex-direction: column;
 justify-content: space-between;
-gap: 5rem;
 }
 
     .container-text{
-    z-index: 10;
+    z-index: 1;
     color: #fff;
     font-size: 5rem;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: auto;
 
 
     .text-2{

@@ -69,7 +69,7 @@ export const Carrousel = styled.div`
 }
 @media (max-width: 1600px) {
     margin: 10rem 0;
-    max-width: unset;
+    max-width: initial;
     
 }
 `
@@ -84,7 +84,7 @@ p{
     width: 40vw;
     font-size: 2.5rem;
     @media (max-width: 1600px) {
-        width: unset;
+        width: initial;
         text-align: justify;
     }
 }
