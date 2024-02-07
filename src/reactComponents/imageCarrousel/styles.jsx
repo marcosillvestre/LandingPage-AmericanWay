@@ -19,19 +19,17 @@ align-items: self-end;
 justify-content: space-around;
 z-index: 900;
 background-color: #fff;
+padding: 0 100px;
 
 
 div{
     display: flex;
     gap: 20px;
-    width: 100%;
 }
 
-    @media (max-width: 1445px) {
-display: grid;
+    @media (max-width: 990px) {
+padding: 0 10px;
 
-    }
-    @media (max-width: 768px) {
 div{
     display: flex;
     gap: 20px;
@@ -39,11 +37,15 @@ div{
 }
     }
 `
-// 202310065928
 export const Image = styled.img`
-width: 100%;
+width: max-content;
+height: max(40rem, max-content);
 transition: .3s;
 &:hover {
         scale: 1.03 ;
+    }
+     @media (max-width: 1445px) {
+height: 60rem;
+
     }
 `

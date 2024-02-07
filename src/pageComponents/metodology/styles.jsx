@@ -10,13 +10,14 @@ justify-content: center;
 align-items: center; 
 overflow: hidden;
 
+
 .nav-boxes{
 width: 100vw;
 padding: 10% 25%;
 display: grid;
 gap: 6rem;
 grid-template-columns: 
-repeat(auto-fit, minmax(320px, 3fr));
+repeat(auto-fit, minmax(220px, 3fr));
 z-index: 1;
 span{
 background-color: #f5f5f5;
@@ -41,7 +42,6 @@ img{
 }
 @media (max-width: 750px) {
     .nav-boxes{
-        margin-bottom: -90rem;
         gap: 1rem;
         width: initial;
         padding: 0 3rem;
@@ -68,39 +68,44 @@ height: 100vh;
 position: absolute;
 translate: 8rem 0;
 @media (max-width: 1500px) {
-    position: relative;
-    translate: -65rem -155rem;
+    /* position: relative; */
+    translate: 0;
 }
+
+ @media (max-width: 750px) {
+    display: none;
+  }
 `
 
 export const Section = styled.section`
-z-index: 1;
+    z-index: 1;
 
-div{
     display: grid;
     text-align: center;
-    gap: 4rem;
+    gap: 5rem;
     z-index: 1000;
     border-radius: 2rem;
-    padding: 5rem 60rem;
+    padding: 5rem 11rem;
     color: #fff;
-    font-size: 3rem;
-}
-div span h1 {
-    font-size: 3em;
-}
-div span h2 {
-    font-size: 1.8em;
+    p{
+        font-size: 3rem;
+    }
+    span {
     text-align: center;
+
+    h1 {
+    font-size: 5.8rem;
+    }
+
+    h2 {
+    font-size: 3.8rem;
+    }
 
 }
 
 @media (max-width: 750px) {
-div{
     text-align: justify;
     font-size: 2.4rem;
-}
-
 }
 
 `

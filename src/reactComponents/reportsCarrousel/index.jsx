@@ -60,11 +60,9 @@ export const ReportsCarrousel = () => {
                 <button onClick={() => handleNext()}> <ArrowRight /> </button>
             </Carrousel>
 
-            <div className="know-more">
-                <a href="/">
-                    Quero saber mais
-                </a>
-            </div>
+            <a href="/" className="know-more">
+                Quero saber mais
+            </a>
         </Container>
     );
 }

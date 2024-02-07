@@ -16,10 +16,16 @@ export const Section = styled.section`
     border-radius: 4rem;
     color: #fff;
     width: 81rem;
-    font-size: 3.2rem;
     display: flex;
     flex-direction: column;
     padding: 7rem 5rem 2rem 5rem;
+    
+    p{
+        font-size: 3rem;
+    }
+    h1{
+        font-size: 3.8rem;
+    }
     
     @media (max-width: 750px) { 
     gap: 2rem;

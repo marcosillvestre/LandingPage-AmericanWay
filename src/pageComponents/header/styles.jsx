@@ -3,12 +3,12 @@ import styled, { keyframes } from 'styled-components'
 const openAnimation = keyframes`
 
 to {
-    height: 45vh;
+    height: 100vh;
 }
 `
 const closeAnimation = keyframes`
 from {
-    height: 50vh;
+    height: 105vh;
 }
 
 to {
@@ -83,7 +83,7 @@ a{
 display: block;
 position: absolute;
 top: 3rem;
-left: 20px;
+right: 20px;
 cursor: pointer;
             .one{
         transform: ${props => props.$clicked ? "" : "rotate(45deg) translate(-7px,2px)"} ;
@@ -117,12 +117,12 @@ export const Wrapper = styled.div`
     background-color: #fff;
     border-radius: 50%;
     height: 14rem;
-    width: 21rem;
+    width: 23rem;
     display: flex;
     justify-content: center;
     z-index: 1000;
     @media (max-width: 768px) {
-        width: 17rem;
+        width: 20rem;
         position: absolute;
         top: 50px;
         left: 50%;

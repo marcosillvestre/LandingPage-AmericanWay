@@ -22,7 +22,5 @@ export const ImageCarrousel = () => {
                 </Container>
             }
         </>
-
-
     )
 }

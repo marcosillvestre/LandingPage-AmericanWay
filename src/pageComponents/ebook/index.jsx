@@ -25,12 +25,12 @@ export const Ebook = () => {
                         </p>
                     </article>
 
-                    <DownloadEbook>
-                        <a href="" >
-                            Baixar ebook
-                        </a>
+                    <DownloadEbook href="">
+                        Baixar ebook
                     </DownloadEbook>
+
                 </div>
+
                 <picture>
                     <source srcSet={book} />
                     <img

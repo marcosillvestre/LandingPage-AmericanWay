@@ -30,7 +30,11 @@ export const TestTech = () => {
                     </p>
                 </article>
 
-                <img src={tech} alt="American Way Logo" className='tech' />
+                <img
+                    src={tech}
+                    alt="American Way Logo"
+                    className='tech'
+                />
 
             </Main>
 

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
 display: flex;
 flex-direction: column;
+
 header{
 display: flex;
 justify-content: space-around;
@@ -72,16 +73,14 @@ font-size: ${props => props.button ? "1.9rem" : "2rem"};
 export const Main = styled.main`
 display: flex;
 flex-direction: column;
-justify-content: end;
+
 article{  
+margin: 4rem 15rem 30rem 0;
 position: absolute;
 right: 0;
 
-margin: 0 15rem 30rem 0;
-
 display: grid;
 gap: 2rem;
-font-size: 3.3rem;
 width: 70rem;
 
 h1 {
@@ -94,6 +93,7 @@ gap: 1rem;
 }
 
 p {
+font-size: 3rem;
 width: 100%;
 }
 }
@@ -117,25 +117,28 @@ margin-top: 40rem;
 }
 
 @media (max-width: 1500px) {
+/* flex-direction: column; */
+/* align-items: center; */
 justify-content: center;
-align-items: center;
+article{  
+    margin-top: 5rem;
+    order: -1;
+    position: absolute;
+    
+}
 .city2{
 display: none;
+}
+.bman{
+height: min-content;
+width: 60vw;
 }
 }
 
 @media (max-width: 1215px) {
-flex-direction: column;
 
-.bman{
-height: 51vh;
-}
 article{
-position: relative;
-margin: 0;
-
-order: -1;
-width: 100vw;
+margin: 0 7rem 0 0;
 padding: 5rem 7rem ;
 justify-content: center;
 font-size: 2.9rem;
@@ -148,13 +151,33 @@ text-align: center;
 }
 
 
-@media (max-width: 750px) {
+ @media (max-width: 990px) {
+    flex-direction: column;
+    article{
+margin: initial;
+width: 100vw;
+padding: 5rem 7rem  ;
+justify-content: center;
+font-size: 2.9rem;
+text-align: justify;
+position: relative;
 
+h1{
+    text-align: center;
+}
+    }
+article > span {
+justify-content: center;
+text-align: center;
+}
 .bman{
+    z-index: 10;
+    width: max-content;
+    margin: 0 auto;
+height: 100rem;
 
-/* margin-top: 50rem; */
-}
-}
+    }
+        }
 
-
+///////////////////////////////////////////////
 `

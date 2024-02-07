@@ -3,11 +3,12 @@ import styled from 'styled-components';
 
 export const Container = styled.main`
 text-align: center;
-padding: 5rem 10rem;
+margin: 15rem 0;
+padding: 10rem 15rem;
 font-size: 4rem;
 
 h1 {
-    font-size: 2.8em;
+    font-size: 6.8rem;
 }
 span{
 display: grid;
@@ -37,11 +38,11 @@ border-radius: 2rem;
 div{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 
     iframe {
     width: 100%;
-    height: 45rem;
+    height: max-content;
     border-radius: 2rem;
     border: none;
     }
@@ -54,7 +55,6 @@ p{
 
 export const ButtonLink = styled.a`
 border: none;
-background: none;
 border-radius: 2rem;
 
 font-weight: bold;
@@ -69,6 +69,13 @@ text-decoration: none;
 display: flex;
 align-items: center;
 justify-content: center;
+&:hover{
+    transition: .1s ease-in-out ;
+    border: .7rem solid #f5f5f5;
+    font-size: 2.8rem;
+    background-color: #3549d0;
+
+}
 
 &:visited{
     color: #fff;

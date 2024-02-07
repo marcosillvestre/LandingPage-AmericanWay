@@ -7,6 +7,8 @@ export const TestEspanish = () => {
         <Container >
 
             <Main>
+
+                <img src={bman} alt="American Way Logo" className='bman' loading='lazy' />
                 <article>
 
                     <h1>Curso de Espanhol</h1>
@@ -30,8 +32,6 @@ export const TestEspanish = () => {
                     </p>
 
                 </article>
-
-                <img src={bman} alt="American Way Logo" className='bman' loading='lazy' />
                 <img src={city2} alt="American Way Logo" className='city2' loading='lazy' />
 
 
