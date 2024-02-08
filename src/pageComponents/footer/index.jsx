@@ -6,8 +6,10 @@ import ytb from '../../assets/ytb.svg'
 import { Container, Image } from './styles.jsx'
 
 export const Footer = () => {
+
     return (
         <Container>
+
             <Image src={copy} />
 
             <div className='links'>

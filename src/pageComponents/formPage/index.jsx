@@ -4,14 +4,22 @@ import { Form } from '../../reactComponents'
 import { Container, Image } from './styles.jsx'
 
 export const FormPage = () => {
-
+    const height = window.innerHeight
+    const width = window.innerWidth
     return (
         <Container
             style={{ backgroundImage: `url(${(logo)})` }}>
+
+
+
             <div className='container-text'>
                 <h1 className='text-1'>Derrube as</h1>
                 <h1 className='text-2'>fronteiras que cercam o</h1>
                 <h1 className='text-3'>seu sucesso!</h1>
+
+                altura:{height}
+
+                temanho:{width}
             </div>
 
 
