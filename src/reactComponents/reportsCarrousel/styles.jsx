@@ -36,11 +36,14 @@ h1{
     }
 
 }
-@media (max-width: 750px) {
+@media (max-width: 990px) {
     font-size: 2.4rem;
+    padding: 50rem 10rem;
+/* width: 100vw; */
 .know-more{
     background-color: #fa6000;
     padding: 3rem 6rem ;
+    width: 100%;
 }
 }
 
@@ -70,8 +73,11 @@ export const Carrousel = styled.div`
 @media (max-width: 1600px) {
     margin: 10rem 0;
     max-width: initial;
-    
 }
+@media (max-width: 990px) {
+
+}
+
 `
 
 
@@ -89,9 +95,16 @@ p{
     }
 }
 
+@media (max-width: 990px) {
+    width: 100%;
+}
 .sub-profile{
     h2{
         font-size: 3rem;
+    }
+    img{
+        height: 10rem;
+        background: none;
     }
 }
 .profile {
