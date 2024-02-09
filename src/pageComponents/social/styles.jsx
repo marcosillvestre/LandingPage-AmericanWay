@@ -25,8 +25,15 @@ justify-content: center;
 export const Image = styled.img`
 height: max-content;
 border-radius:  2.3rem;
-width: max(20rem, 40rem);
+width: 40rem;
 border-radius: 3rem;
+    &:hover{
+        scale: 1.03;
+    }
+    @media (max-width: 990px){
+        height: 35rem;
+}
+
 
 `
 

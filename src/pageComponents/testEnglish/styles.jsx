@@ -128,9 +128,9 @@ height: max-content;
         }
     }
         .watch{
-        width: max-content;
-        margin: 0 auto;
-        height: 100rem;
+width: 100vw;
+margin: 0 auto;
+height: max-content;
         }
     }
 `

@@ -16,14 +16,14 @@ export const Footer = () => {
 
             <div className='links'>
                 <h3>Metodologia</h3>
-                <a href="#">Cursos de inglês</a>
                 <a href="#">Cursos online</a>
+                <a href="#">Cursos de inglês</a>
                 <a href="#">Cursos de espanhol</a>
                 <a href="#">Cursos de informática</a>
                 <a href="#">Aula experimental</a>
                 <a href="#">Ebook de inglês</a>
                 <a href="#">Teste seu inglês</a>
-                <a href="#">Teste seu inglês</a>
+                <a href="#">Teste seu espanhol</a>
             </div>
 
             <div className='links'>

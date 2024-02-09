@@ -9,7 +9,7 @@ background-size: cover;
 
 @media (max-width: 990px) {
     background-position: left;
-    padding: 15rem  10rem;
+    padding: 15rem  5rem;
 
 }
 
@@ -68,7 +68,7 @@ img{
 }
     img{
         display: block;
-        width: 50vw;
+        width: 70vw;
     }
 
 }
