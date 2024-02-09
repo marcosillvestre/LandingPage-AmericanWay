@@ -53,8 +53,8 @@ padding: 10rem 0rem;
             padding: 2rem .7rem;
             font-size: 1.8rem;
 img{
-    width: 25rem;
-    height: 20rem;
+    width: 20rem;
+    height: 15rem;
 }
 }
 }

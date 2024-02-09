@@ -68,7 +68,7 @@ display: flex;
 .menu-toogle{
 display: block;
 position: absolute;
-top: 3rem;
+top: 2rem;
 right: 20px;
 z-index: 4;
 cursor: pointer;
@@ -98,7 +98,7 @@ export const AnchorMobileList = styled.ul`
 position: absolute;
 background-color: #fff;
 transition: all.5s;
-top: ${props => props.$clicked ? "-100vh" : "12rem"};
+top: ${props => props.$clicked ? "-120vh" : "12rem"};
 width: 100vw;
 left: 0;
 height: 100vh;
