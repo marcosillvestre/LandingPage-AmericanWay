@@ -1,16 +1,16 @@
 import React from 'react'
 import aw from '../../assets/aws.svg'
-import { Container, Logo, Wrapper } from './styles.jsx'
+import { AnchorMobileList, Container, ListAnchor, Logo, MobileNavigation, Navigation, Wrapper } from './styles.jsx'
 
 
 export const Header = () => {
     let [bool, setBool] = React.useState(true)
-    const classeCSS = bool ? '' : 'on'
 
     return (
-        <Container $clicked={bool}>
-            <nav>
-                <ul>
+        <Container >
+
+            <Navigation >
+                <ListAnchor >
                     <a href="">Sobre</a>
 
                     <a href="">Cursos</a>
@@ -28,28 +28,46 @@ export const Header = () => {
                     <a href="">Unidades</a>
                     <a href="">Fale Conosco</a>
 
-                </ul>
-                <div className='menu-section' onClick={() => setBool(!bool)}>
-                    <div className={classeCSS}>
-                        <div className='menu-toogle'>
-                            <div className='one'></div>
-                            <div className='two'></div>
-                            <div className='three'></div>
-                        </div>
+                </ListAnchor>
+            </Navigation>
 
-                        <div className='list-menu-section'>
-                            <ul>
-                                <a href="">Sobre</a>
-                                <a href="">Cursos</a>
-                                <a href="">Teste seu inglês</a>
-                                <a href="">Online</a>
-                                <a href="">Unidades</a>
-                                <a href="">Fale Conosco</a>
-                            </ul>
-                        </div>
-                    </div>
+
+            <MobileNavigation $clicked={bool}>
+                <div>
                 </div>
-            </nav>
+
+                <Wrapper >
+                    <picture>
+                        <source srcSet={aw} />
+                        <Logo alt="American Way - logo" loading='lazy' />
+                    </picture>
+                </Wrapper>
+
+                <div
+                    onClick={() => setBool(!bool)}
+                >
+                    <div className='menu-toogle'>
+                        <div className='one'></div>
+                        <div className='two'></div>
+                        <div className='three'></div>
+                    </div>
+
+                    <AnchorMobileList $clicked={bool}>
+                        <div>
+                            <a href="">Sobre</a>
+                            <a href="">Cursos</a>
+                            <a href="">Teste seu inglês</a>
+                            <a href="">Online</a>
+                            <a href="">Unidades</a>
+                            <a href="">Fale Conosco</a>
+                        </div>
+                    </AnchorMobileList>
+                </div>
+            </MobileNavigation>
+
+
+
         </Container>
     )
+
 }

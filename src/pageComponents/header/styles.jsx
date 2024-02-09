@@ -1,36 +1,48 @@
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 
-const openAnimation = keyframes`
-
-to {
-    height: 100vh;
-}
-`
-const closeAnimation = keyframes`
-from {
-    height: 105vh;
-}
-
-to {
-    height: 65px;
-}
-`
 
 
 export const Container = styled.header`
 width: 100vw;
-transition: all.7s;
 height: 12rem;
 
-@media (max-width: 768px) {
-    will-change: height;
-    animation: ${({ $clicked }) => ($clicked ? closeAnimation : openAnimation)} 700ms ease-in-out forwards;
+@media (max-width: 1600px) {
+        padding: .3rem ;
     }
-nav > ul{
-    display: flex;
-    justify-content: space-around;
-    padding: 4rem 0 3rem 0;
-        }
+`
+
+export const Navigation = styled.nav`
+
+@media (max-width: 990px){
+display: none;
+}
+`
+export const ListAnchor = styled.ul`
+display: flex;
+justify-content: space-around;
+padding: 4rem 0px 3rem;
+
+    a{
+        z-index: 1;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    font-size: 2.7em;
+    }
+
+`
+
+
+
+
+
+
+
+
+
+export const MobileNavigation = styled.nav`
+display: none;
 
     .menu-toogle{
     display: none;
@@ -48,70 +60,90 @@ nav > ul{
             transition-duration: .4s;
     }
 }
-nav > ul > a{
-    z-index: 1;
-    text-decoration: none ;
-    font-weight: bolder;
-    color:#222;
-    cursor: pointer;
-    font-size: 2.7em;
 
-}
-@media (max-width: 1600px) {
-        padding: .3rem ;
-    }
 
-    @media (max-width: 768px) {
-        nav > ul{
-    display: grid;
-    margin: 23rem auto;
-    font-size: 2rem;
-    text-align: center;
+    @media (max-width: 990px) {
+display: flex;
 
-a{
-    z-index: 1;
-    transform-origin: top;
-    transition: all.2s;
-    line-height: 8rem;
-    text-transform: uppercase;
-&:active{
-    background-color: #ffffff4c;
-}
-}
-}
 .menu-toogle{
 display: block;
 position: absolute;
 top: 3rem;
 right: 20px;
+z-index: 4;
 cursor: pointer;
             .one{
-        transform: ${props => props.$clicked ? "" : "rotate(45deg) translate(-7px,2px)"} ;
+        transform: ${props => props.$clicked ?
+        "" :
+        "rotate(45deg) translate(3px,2px)"} ;
             }
             .two{ 
-                opacity: ${props => props.$clicked ? "1" : "0"};
+                opacity: ${props => props.$clicked ?
+        "1" :
+        "0"};
                 
             } 
             .three{
-        transform: ${props => props.$clicked ? "" : "rotate(-45deg) translate(10px,-21px)"} ;
+        transform: ${props => props.$clicked ?
+        "" :
+        "rotate(-45deg) translate(11px,-10px)"} ;
             }
 
+}  
 }
-    .on{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        z-index: 1;
-        transition: all.2s;
 
+`
+
+export const AnchorMobileList = styled.ul`
+position: absolute;
+background-color: #fff;
+transition: all.5s;
+top: ${props => props.$clicked ? "-100vh" : "12rem"};
+width: 100vw;
+left: 0;
+height: 100vh;
+padding: 25rem 10rem;
+z-index: 3;
+display: flex;
+align-items: center;
+justify-content: center;
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 25rem;
+
+    a{
+        z-index: 1;
+        text-decoration: none;
+        font-weight: bolder;
+        color: rgb(34, 34, 34);
+        cursor: pointer;
+        font-size: 4.7rem;
+        text-transform: uppercase;
     }
     
 }
-
-
+    @media (max-width: 990px){
+         /* display: none; */
+/* a{
+        z-index: 1;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    font-size: 2.7em;
+    } */
+}
 `
+
+
+
+
+
+
 
 export const Wrapper = styled.div`
     background-color: #fff;
@@ -120,8 +152,8 @@ export const Wrapper = styled.div`
     width: 23rem;
     display: flex;
     justify-content: center;
-    z-index: 1000;
-    @media (max-width: 768px) {
+    z-index: 4;
+    @media (max-width: 990px) {
         width: 20rem;
         position: absolute;
         top: 50px;
@@ -141,3 +173,5 @@ export const Logo = styled.img`
     }
 
 `
+
+

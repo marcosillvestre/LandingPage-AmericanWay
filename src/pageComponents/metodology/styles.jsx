@@ -44,12 +44,11 @@ img{
 padding: 10rem 0rem;
 
     .nav-boxes{
-        gap: 1rem;
-        width: initial;
-        padding: 0 3rem;
-        display: grid;
-        grid-template-columns: 
-        repeat(auto-fit, minmax(130px, 3fr));
+    gap: 1rem;
+    width: initial;
+    padding: 0px 8rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(129px, 3fr));
         span{
             padding: 2rem .7rem;
             font-size: 1.8rem;
