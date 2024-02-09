@@ -96,11 +96,10 @@ cursor: pointer;
 
 export const AnchorMobileList = styled.ul`
 position: absolute;
-background-color: #fff;
+background-color: #e9e9e9;
 transition: all.5s;
-top: ${props => props.$clicked ? "-120vh" : "12rem"};
+top: ${props => props.$clicked ? "-220vh" : "12rem"};
 width: 100vw;
-left: 0;
 height: 100vh;
 padding: 25rem 10rem;
 z-index: 3;
