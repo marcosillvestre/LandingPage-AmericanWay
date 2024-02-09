@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.main`
 background-color: #007dff;
-padding: 10rem 0;
+padding: 10rem 15rem;
 
 display: flex;
 flex-direction: column;
@@ -34,13 +34,15 @@ hr{
     width: 80%;
 }
 img{
-    width: 30em;
-    height: 25em;
+    width: 30rem;
+    height: 35rem;
 }
 }
 
 }
 @media (max-width: 990px) {
+padding: 10rem 0rem;
+
     .nav-boxes{
         gap: 1rem;
         width: initial;

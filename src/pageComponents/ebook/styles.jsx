@@ -3,11 +3,14 @@ import styled from 'styled-components'
 export const Container = styled.main`
 
 background-color: #007dff;
-padding: 15rem  0;
+padding: 10rem 0 28rem  0rem;
 background-repeat: no-repeat;
 background-size: cover;
+
 @media (max-width: 990px) {
     background-position: left;
+    padding: 15rem  10rem;
+
 }
 
 `
@@ -34,9 +37,8 @@ p{
     font-size: 3.4rem;
     width: 100%;
     margin: 15rem 0 0 10rem;
-    width: max-content;
+    width: 80rem;
     article{
-        width: 70rem;
         text-align: justify;
     }
 }
@@ -49,22 +51,24 @@ img{
     flex-direction: column;
     align-items: center;
 
-    width: 100%;
-    padding: 5rem 7rem ;
     
     .container-article{
+        width: 100%;
         display: flex;
         align-items: center;
-
-        margin: 10rem auto;
+        margin: 0 auto;
+        padding: 10rem 0;
 
     article{
+
+        text-align: center;
         text-align: justify;
+        width: 100%;
     }
 }
     img{
         display: block;
-        width: 80vw;
+        width: 50vw;
     }
 
 }
@@ -82,7 +86,7 @@ padding: 2rem 0 ;
 
 color: #fff;
 line-height: 100%;
-width: 80%;
+width: 100%;
 margin: auto;
 
 text-decoration: none;
@@ -96,10 +100,9 @@ font-weight: bolder;
     transition: .1s ease-in-out ;
     border: .6rem solid #f5f5f5;
     font-size: 3.4rem;
-    background-color: #efab00;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 990px) {
     font-size: 2.4rem;
     .know-more{
         padding: 3rem 5rem ;
