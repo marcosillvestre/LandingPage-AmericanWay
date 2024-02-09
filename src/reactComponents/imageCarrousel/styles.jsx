@@ -13,7 +13,7 @@ export const Container = styled.div`
 width: 100vw;
 margin: auto;
 display: flex;
-gap: 20px;
+gap: 8px;
 padding: 0 2rem;
 align-items: self-end;
 justify-content: space-around;
@@ -24,16 +24,14 @@ padding: 0 100px;
 
 div{
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
     @media (max-width: 990px) {
-padding: 0 10px;
-flex-direction: column;
+padding: 0 15px;
 div{
-    display: flex;
     overflow-x: scroll;
-
+    overflow-y: hidden;
 }
     }
 `
@@ -45,6 +43,6 @@ height: max(40rem, max-content);
         scale: 1.03 ;
     }
      @media (max-width: 1445px) {
-/* height: 60rem; */
+width: 100%;
     }
 `

@@ -33,6 +33,7 @@ h2{
     p{
         font-size: 1.5rem;
     }
+    
 `
 
 export const Input = styled.input`

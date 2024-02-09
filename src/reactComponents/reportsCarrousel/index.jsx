@@ -34,7 +34,10 @@ export const ReportsCarrousel = () => {
                 <button onClick={() => handlePrevious()}>  <ArrowLeft /> </button>
 
 
-                <Data key={slides[index]?.name} slide={slides[index]}>
+                <Data
+                    key={slides[index]?.name}
+                    slide={slides[index]}
+                >
 
                     <div className="profile">
 

@@ -17,7 +17,7 @@ export const FormPage = () => {
                 <h1 className='text-3'>seu sucesso!</h1>
             </div>
 
-            <picture style={{ order: 3 }}>
+            <picture>
                 <source srcSet={woman} />
                 <Image
                     alt="American Way logo - Mulher sorridente"

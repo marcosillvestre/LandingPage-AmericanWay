@@ -36,9 +36,19 @@ export const TestEnglish = () => {
                     </p>
                 </article>
 
-                <img src={city} alt="American Way City -  Ponte da cidade de San francisco" className='city' />
+                <img
+                    src={city}
+                    alt="American Way City -  Ponte da cidade de San francisco"
+                    className='city'
+                    loading='lazy'
+                />
 
-                <img src={watch} alt="American Way Logo - Mulher sorridente lendo livro em Inglês" className='watch' />
+                <img
+                    src={watch}
+                    alt="American Way Logo - Mulher sorridente lendo livro em Inglês"
+                    className='watch'
+                    loading='lazy'
+                />
 
             </Main>
 

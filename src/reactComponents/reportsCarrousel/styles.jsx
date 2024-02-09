@@ -37,8 +37,10 @@ h1{
 }
 @media (max-width: 990px) {
     font-size: 2.4rem;
-    padding: 50rem 10rem;
-/* width: 100vw; */
+    padding: 50rem 5rem;
+    h1{
+        width: max-content;
+    }
 .know-more{
     background-color: #fa6000;
     padding: 3rem 0 ;
