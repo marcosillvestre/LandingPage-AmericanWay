@@ -36,6 +36,17 @@ export const Header = () => {
                             <div className='two'></div>
                             <div className='three'></div>
                         </div>
+
+                        <div className='list-menu-section'>
+                            <ul>
+                                <a href="">Sobre</a>
+                                <a href="">Cursos</a>
+                                <a href="">Teste seu inglês</a>
+                                <a href="">Online</a>
+                                <a href="">Unidades</a>
+                                <a href="">Fale Conosco</a>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>

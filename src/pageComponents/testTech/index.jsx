@@ -26,7 +26,7 @@ export const TestTech = () => {
                         Dentro de sala, o nosso objetivo é ir além da
                         teoria básica com exercícios baseados em
                         contextos reais dentro de um ambiente corporativo,
-                        softwares atualizados e provas que desfiam os alunos.
+                        softwares atualizados e provas que desafiam os alunos.
                     </p>
                 </article>
 

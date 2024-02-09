@@ -5,7 +5,7 @@ import StarIcon from '@mui/icons-material/Star';
 
 
 
-export const Container = styled.div`
+export const Container = styled.section`
 width: 100vw;
 height: 80vh;
 padding: 60rem 0rem;
@@ -30,6 +30,7 @@ h1{
     text-decoration: none;
     font-weight: bolder;
     text-align: center;
+    margin: 10rem auto;
         &:visited{
     color: #fff;
     }
@@ -94,7 +95,7 @@ export const Carrousel = styled.div`
 export const Data = styled.span`
 display: flex;
 flex-direction: column;
-width: 70rem;
+padding: 5rem;
 border-radius: 2rem;
 background-color: #fff;
 p{
