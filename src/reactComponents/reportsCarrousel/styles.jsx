@@ -55,7 +55,9 @@ export const Carrousel = styled.div`
     justify-content: center;
     height: 20rem;
     align-items: center;
-    padding: 20rem 0 29rem 0;
+    padding: 20rem 2rem;
+    background-color: #f2f2f2;
+    border-radius: 2rem;
 
     button{
     background: none;
@@ -74,6 +76,14 @@ export const Carrousel = styled.div`
 @media (max-width: 1600px) {
     margin: 10rem 0;
     max-width: initial;
+        button{
+    padding: 2rem 1rem ;
+
+    svg{
+    height: 4rem;
+    width: 4rem;
+    }
+}
 }
 
 
@@ -85,6 +95,8 @@ export const Data = styled.span`
 display: flex;
 flex-direction: column;
 width: 70rem;
+border-radius: 2rem;
+background-color: #fff;
 p{
     width: 40vw;
     font-size: 2rem;
@@ -96,6 +108,7 @@ p{
 
 @media (max-width: 990px) {
     width: 100%;
+    padding: 20px;
 }
 .sub-profile{
     h2{
