@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
 width: 100vw;
-/* height: 90.4vh; */
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -12,7 +11,7 @@ justify-content: center;
 align-items: center;
 z-index: 2;
 
-@media (max-width: 750px) { 
+@media (max-width: 990px) { 
 flex-direction: column;
 justify-content: space-between;
 }
@@ -31,7 +30,6 @@ justify-content: space-between;
         font-size: 4.4rem;
     }
     @media (max-width: 1300px) {
-    
     translate: 0 18%;
     margin: 5rem 0;
     font-size: 4.3rem;
@@ -42,13 +40,11 @@ justify-content: space-between;
 `
 
 export const Image = styled.img`
-    order: 0;
     width: max-content;
     height: 90vh;
     translate: -5% 0;
     
     @media (max-width: 1075px) {
-    order: 3;
     height: auto;
     width: 85vw;
     }

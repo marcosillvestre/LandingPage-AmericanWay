@@ -1,4 +1,4 @@
-import book from '../../assets/book.svg'
+import book from '../../assets/bookAlone.svg'
 import ebook from '../../assets/ebook1.svg'
 import { Container, DownloadEbook, Section } from './styles'
 
@@ -34,7 +34,6 @@ export const Ebook = () => {
                 <picture>
                     <source srcSet={book} />
                     <img
-                        src={book}
                         alt="Book - ebook de própria autoria da escola" />
                 </picture>
 

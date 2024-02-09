@@ -1,6 +1,6 @@
 
 import logo from '../../assets/blueBackg.svg';
-import { Container, Image, Main } from './styles';
+import { Container, Image, Section } from './styles';
 
 import social from '../../services/socialMedia.jsx';
 
@@ -14,7 +14,7 @@ const Social = () => {
                 backgroundSize: 'cover'
             }}
         >
-            <Main>
+            <Section>
                 <h1 >Nossas redes sociais</h1>
                 <h2>conheça mais sobre a American Way</h2>
 
@@ -34,7 +34,7 @@ const Social = () => {
                         ))
                     }
                 </div>
-            </Main>
+            </Section>
 
 
         </Container>

@@ -34,7 +34,7 @@ font-size: 2.5rem;
     transition: 0.2s ;
 }
 }
-@media (max-width: 750px) {
+@media (max-width: 990px) {
 height: 13rem;
 font-size: 1.7rem;
 p{
@@ -83,18 +83,17 @@ gap: 2rem;
 font-size: 3rem;
 width: 70rem;
 text-align: justify;
-}
-article > span {
+span {
 display: flex;
 gap: 1rem;
 }
-article > p {
+p {
 width: 100%;
 }
-article > h1 {
+h1 {
 font-size: 3.8rem;
 }
-
+}
 
 .city{
 position: absolute;
@@ -102,16 +101,16 @@ translate: 10rem 30rem;
 }
 .watch{
 translate: 3rem 0;
-height: 90vh;
+height: max-content;
 }
 
 @media (max-width: 1500px) {
-.city{
-display: none;
-}
-.watch{
-translate: 3rem 0;
-height: max-content;
+    .city{
+        display: none;
+    }
+    .watch{
+        translate: 3rem 0;
+        height: 90vh;
 }
 }
 @media (max-width: 990px) {
@@ -127,9 +126,8 @@ text-align: center;
 }
 }
 .watch{
- z-index: 10;
-    width: max-content;
-    margin: 0 auto;
+width: max-content;
+margin: 0 auto;
 height: 100rem;
 }
 }

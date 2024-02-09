@@ -63,6 +63,7 @@ export const ReportsCarrousel = () => {
             <a href="/" className="know-more">
                 Quero saber mais
             </a>
+
         </Container>
     );
 }

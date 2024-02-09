@@ -29,23 +29,22 @@ div{
 
     @media (max-width: 990px) {
 padding: 0 10px;
-
+flex-direction: column;
 div{
     display: flex;
-    gap: 20px;
     overflow-x: scroll;
+
 }
     }
 `
 export const Image = styled.img`
 width: max-content;
 height: max(40rem, max-content);
-transition: .3s;
 &:hover {
+    transition: .3s;
         scale: 1.03 ;
     }
      @media (max-width: 1445px) {
-height: 60rem;
-
+/* height: 60rem; */
     }
 `

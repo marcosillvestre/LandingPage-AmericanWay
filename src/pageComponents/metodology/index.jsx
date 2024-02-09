@@ -42,11 +42,14 @@ export const Metodology = () => {
                     ))
                 }
             </div>
-            <Hearths
-                src={hearth}
-                alt="American way logo - Imagem de corações meramente ilustrativa"
-                loading='lazy'
-                className='hearth' />
+            <picture>
+                {/* <source media="(max-width: 768px)" srcSet="/" */}
+                <source srcSet={hearth} />
+                <Hearths
+                    alt="American way logo - Imagem de corações meramente ilustrativa"
+                    loading='lazy'
+                    className='hearth' />
+            </picture>
 
         </Container>
     )

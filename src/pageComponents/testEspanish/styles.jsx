@@ -117,8 +117,6 @@ margin-top: 40rem;
 }
 
 @media (max-width: 1500px) {
-/* flex-direction: column; */
-/* align-items: center; */
 justify-content: center;
 article{  
     margin-top: 5rem;
@@ -171,10 +169,9 @@ justify-content: center;
 text-align: center;
 }
 .bman{
-    z-index: 10;
-    width: max-content;
-    margin: 0 auto;
-height: 100rem;
+z-index: 10;
+width: 100vw;
+margin: 0 auto;
 
     }
         }

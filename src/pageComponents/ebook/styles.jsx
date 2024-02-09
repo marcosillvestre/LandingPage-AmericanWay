@@ -16,15 +16,15 @@ background-size: cover;
 export const Section = styled.section`
 text-align: center;
 color: #fff;
-p{
-    font-size: 3rem;
-}
 
 h1 {
     font-size: 5.8rem;
 }
 h4{
     font-size: 3.8rem;
+}
+p{
+    font-size: 3rem;
 }
 
 .container-article{
@@ -48,23 +48,23 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    width: 100%;
+    padding: 5rem 7rem ;
     
     .container-article{
         display: flex;
-        flex-direction: column;
         align-items: center;
 
-        margin: auto;
+        margin: 10rem auto;
 
     article{
-        padding: 5rem 7rem  ;
         text-align: justify;
     }
 }
     img{
         display: block;
-        height: 100%;
-        width: 100%;
+        width: 80vw;
     }
 
 }

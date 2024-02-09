@@ -8,19 +8,18 @@ import { Container, Image } from './styles.jsx'
 export const ImageCarrousel = () => {
 
     return (
-        <>
-            {
-                <Container>
-                    <div>
-                        <Image src={st} alt="" loading='lazy' className='item' />
-                        <Image src={st2} alt="" loading='lazy' className='item' />
-                    </div>
-                    <div>
-                        <Image src={st3} alt="" loading='lazy' className='item' />
-                        <Image src={st4} alt="" loading='lazy' className='item' />
-                    </div>
-                </Container>
-            }
-        </>
+        <Container>
+            <div>
+                <Image src={st} alt="" loading='lazy' className='item' />
+
+                <Image src={st2} alt="" loading='lazy' className='item' />
+            </div>
+
+            <div>
+                <Image src={st3} alt="" loading='lazy' className='item' />
+
+                <Image src={st4} alt="" loading='lazy' className='item' />
+            </div>
+        </Container>
     )
 }

@@ -60,7 +60,6 @@ article{
     z-index: 10;
     height: min-content;
     width: 55vw;
-
     }
 }
 
@@ -83,10 +82,9 @@ justify-content: center;
 text-align: center;
 }
 .tech{
-  z-index: 10;
-    width: max-content;
-    margin: 0 auto;
-height: 100rem;
+z-index: 10;
+width: 100vw;
+margin: 0 auto;
     }
         }
 

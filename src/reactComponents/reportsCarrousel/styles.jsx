@@ -8,11 +8,10 @@ import StarIcon from '@mui/icons-material/Star';
 export const Container = styled.div`
 width: 100vw;
 height: 80vh;
-padding: 60rem 30rem;
+padding: 60rem 0rem;
 display: flex;
 flex-direction: column;
 align-items: center;
-font-size: 4rem;
 justify-content: space-around;
 h1{
     font-size: 6.8rem;
@@ -42,7 +41,7 @@ h1{
 /* width: 100vw; */
 .know-more{
     background-color: #fa6000;
-    padding: 3rem 6rem ;
+    padding: 3rem 0 ;
     width: 100%;
 }
 }
@@ -66,7 +65,7 @@ export const Carrousel = styled.div`
     cursor: pointer;
 
     svg{
-        height: 6rem;
+    height: 6rem;
     width: 6rem;
     }
 }
@@ -74,9 +73,7 @@ export const Carrousel = styled.div`
     margin: 10rem 0;
     max-width: initial;
 }
-@media (max-width: 990px) {
 
-}
 
 `
 
@@ -103,7 +100,7 @@ p{
         font-size: 3rem;
     }
     img{
-        height: 10rem;
+        height: 5rem;
         background: none;
     }
 }
@@ -112,8 +109,8 @@ p{
         display: flex;
         margin: 1rem  0;
         svg{
-            height: 4rem;
-            width: 4rem;
+            height: 2rem;
+            width: 2rem;
         }
         
     }

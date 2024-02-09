@@ -29,7 +29,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 gap: 2rem;
-font-size: 1.6rem;
+font-size: 1.8rem;
 hr{
     width: 80%;
 }
@@ -40,20 +40,20 @@ img{
 }
 
 }
-@media (max-width: 750px) {
+@media (max-width: 990px) {
     .nav-boxes{
         gap: 1rem;
         width: initial;
         padding: 0 3rem;
         display: grid;
         grid-template-columns: 
-        repeat(auto-fit, minmax(147px, 3fr));
+        repeat(auto-fit, minmax(130px, 3fr));
         span{
-            padding: 2rem 1rem;
-            font-size: 1.5rem;
+            padding: 2rem .7rem;
+            font-size: 1.8rem;
 img{
-    width: 18em;
-    height: 15em;
+    width: 25rem;
+    height: 20rem;
 }
 }
 }
@@ -72,7 +72,7 @@ translate: 8rem 0;
     translate: 0;
 }
 
- @media (max-width: 750px) {
+ @media (max-width: 990px) {
     display: none;
   }
 `
@@ -85,7 +85,7 @@ export const Section = styled.section`
     gap: 5rem;
     z-index: 1000;
     border-radius: 2rem;
-    padding: 5rem 11rem;
+    padding: 5rem 8rem;
     color: #fff;
     p{
         font-size: 3rem;

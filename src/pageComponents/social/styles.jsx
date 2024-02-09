@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 
-export const Container = styled.main`
+export const Container = styled.section`
 background-color: #007dff;
 text-align: center;
 padding: 15rem;
@@ -24,28 +24,32 @@ justify-content: center;
 export const Image = styled.img`
 height: max-content;
 border-radius:  2.3rem;
-width: max(25rem, 50rem);
+width: max(20rem, 40rem);
+border-radius: 3rem;
 
 `
 
-export const Main = styled.main`
+export const Section = styled.section`
 display: flex;
 flex-direction: column;
-gap: 2rem;
 color: #fff;
 align-items: center;
+gap: 2rem;
 
 h1{
     font-size: 5.8rem;
+    width: max-content;
 }
 h2{
+    width: 85%;
     font-size: 3.8rem;
     background-color: #f14477;
     padding: 0 3rem;
 
 }
+
+@media (max-width: 990px){
+
+}
 `
 
-export const Icon = styled.div`
-
-`

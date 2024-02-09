@@ -17,7 +17,10 @@ export const Header = () => {
                     <a href="">Teste seu inglês</a>
 
                     <Wrapper $clicked={bool}>
-                        <Logo src={aw} alt="American Way - logo" loading='lazy' />
+                        <picture>
+                            <source srcSet={aw} />
+                            <Logo alt="American Way - logo" loading='lazy' />
+                        </picture>
                     </Wrapper>
 
 

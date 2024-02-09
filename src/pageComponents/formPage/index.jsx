@@ -4,8 +4,7 @@ import { Form } from '../../reactComponents'
 import { Container, Image } from './styles.jsx'
 
 export const FormPage = () => {
-    const height = window.innerHeight
-    const width = window.innerWidth
+
     return (
         <Container
             style={{ backgroundImage: `url(${(logo)})` }}>
@@ -16,17 +15,15 @@ export const FormPage = () => {
                 <h1 className='text-1'>Derrube as</h1>
                 <h1 className='text-2'>fronteiras que cercam o</h1>
                 <h1 className='text-3'>seu sucesso!</h1>
-
-                altura:{height}
-
-                temanho:{width}
             </div>
 
+            <picture style={{ order: 3 }}>
+                <source srcSet={woman} />
+                <Image
+                    alt="American Way logo - Mulher sorridente"
+                />
 
-            <Image
-                src={woman}
-                alt="American Way logo - Mulher sorridente"
-            />
+            </picture>
             <Form />
         </Container>
     )

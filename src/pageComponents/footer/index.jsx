@@ -9,8 +9,10 @@ export const Footer = () => {
 
     return (
         <Container>
-
-            <Image src={copy} />
+            <picture>
+                <source srcSet={copy} />
+                <Image />
+            </picture>
 
             <div className='links'>
                 <h3>Metodologia</h3>
@@ -39,9 +41,18 @@ export const Footer = () => {
                 <h3>Acompanhe a gente</h3>
                 <p>nas nossas redes sociais</p>
                 <div>
-                    <a href="*"> <img src={insta} alt="" /></a>
-                    <a href="*"> <img src={ytb} alt="" /></a>
-                    <a href="*"> <img src={faceb} alt="" /></a>
+                    <picture>
+                        <source srcSet={insta} />
+                        <img alt="instagram - logo" />
+                    </picture>
+                    <picture>
+                        <source srcSet={ytb} />
+                        <img alt="youtube - logo" />
+                    </picture>
+                    <picture>
+                        <source srcSet={faceb} />
+                        <img alt="facebook - logo" />
+                    </picture>
                 </div>
 
                 <p>@americanwayofficial</p>
