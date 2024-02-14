@@ -4,8 +4,9 @@ export const Container = styled.main`
 height: 110vh;
 background-repeat: no-repeat;
 background-size: cover;
-@media (max-width: 750px) { 
+@media (max-width: 990px) { 
     background-position: center;
+    translate: 0 1.48%;
     
     }
 `

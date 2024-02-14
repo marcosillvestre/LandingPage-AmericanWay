@@ -46,7 +46,7 @@ picture{
 export const Image = styled.img`
     width: max-content;
     height: 90vh;
-    translate: -5% 0.44%;
+    translate: -5% 1.48%;
     
     @media (max-width: 1075px) {
     height: auto;
