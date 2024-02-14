@@ -21,15 +21,19 @@ const Social = () => {
                 <div className='container'>
                     {
                         social.map(res => (
-                            <div
+                            <a
                                 key={res.id}
                                 className='icon'
+                                href={res.link}
                             >
-                                <a href={res.link}>
-                                    <Image src={res.image} />
-                                </a>
 
-                            </div>
+                                <Image
+                                    style={{ backgroundColor: res.color }}
+                                >
+                                    <img src={res.image} alt="" />
+                                </Image>
+
+                            </a>
 
                         ))
                     }

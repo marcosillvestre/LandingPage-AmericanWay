@@ -22,16 +22,22 @@ display: flex;
 justify-content: center;
 }
 `
-export const Image = styled.img`
-height: max-content;
-border-radius:  2.3rem;
+export const Image = styled.div`
+padding: 20rem;
 width: 40rem;
 border-radius: 3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all.6s;
     &:hover{
         scale: 1.03;
     }
     @media (max-width: 990px){
         height: 35rem;
+        img{
+            height: 25rem;
+        }
 }
 
 

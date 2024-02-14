@@ -167,7 +167,7 @@ export const Logo = styled.img`
     translate: 0 25%;
     @media (max-width: 768px) {
         width: 13rem;
-        height: 10rem;
+        height: 8rem;
         
     }
 

@@ -10,6 +10,11 @@ import st6 from '../assets/vit.png';
 
 const slides = [
     {
+        image: st3,
+        name: "Andre rubens",
+        text: "Ótima escola de idiomas, com metodologia de ensino muito a frente das outras",
+    },
+    {
         image: st,
         name: "Daise Alves",
         text: "Venham para American way, a melhor escola de línguas do mercado, dinâmica e com uma super estrutura para atender todos que querem sobresair no mercado de trabalho e no mundo! 😉🥰❤️.Ótimos professor, com carisma e capacitação de alto nível.Estou adorando, escola localizada no bairro PTB valorizando e trazendo ainda mais crescimento e educação para população.Venham conhecer e se surpriender.! 👏🥰✈️🌐🇧🇷",
@@ -23,11 +28,6 @@ const slides = [
         image: st2,
         name: "Rodrigo Souza",
         text: "Ótima escola, com ótimos professores que tem métodos de ensino muito atuais e efetivos. Nunca estudei numa escola de idiomas tão boa.",
-    },
-    {
-        image: st3,
-        name: "Andre rubens",
-        text: "Ótima escola de idiomas, com metodologia de ensino muito a frente das outras",
     },
     {
         image: st4,
