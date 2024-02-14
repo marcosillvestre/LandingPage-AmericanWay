@@ -2,12 +2,14 @@ import styled from 'styled-components'
 
 export const Container = styled.main`
 height: 110vh;
+width: 110%;
 background-repeat: no-repeat;
 background-size: cover;
+translate:  -1.78% 0;
+
 @media (max-width: 990px) { 
     background-position: center;
-    translate: 0 1.48%;
-    
+    translate: 0 3%;
     }
 `
 

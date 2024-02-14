@@ -122,6 +122,7 @@ p{
         font-size: 3rem;
     }
     img{
+        width: 5rem;
         height: 5rem;
         background: none;
     }

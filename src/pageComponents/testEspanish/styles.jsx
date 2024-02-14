@@ -102,8 +102,8 @@ width: 100%;
 
 .bman{
 z-index: 10;
-width: max-content;
-height: max-content;
+    height: 85rem;
+    width: 104rem;
 
 }
 .city2{

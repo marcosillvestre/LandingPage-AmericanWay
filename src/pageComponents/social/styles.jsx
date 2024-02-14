@@ -34,10 +34,15 @@ transition: all.6s;
     &:hover{
         scale: 1.03;
     }
+    img{
+        height: 20rem;
+        width: 20rem;
+    }
     @media (max-width: 990px){
     padding: 10rem;
         img{
             height: 10rem;
+            width: 10rem;
         }
 }
 

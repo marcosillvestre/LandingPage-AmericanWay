@@ -10,12 +10,12 @@ export const ImageCarrousel = () => {
     return (
         <Container>
             <div>
-                <Image src={st} alt="" loading='lazy' className='item' />
+                <Image src={st} alt="carousel image 1" loading='lazy' className='item' />
 
-                <Image src={st2} alt="" loading='lazy' className='item' />
-                <Image src={st3} alt="" loading='lazy' className='item' />
+                <Image src={st2} alt="carousel image 2" loading='lazy' className='item' />
+                <Image src={st3} alt="carousel image 3" loading='lazy' className='item' />
 
-                <Image src={st4} alt="" loading='lazy' className='item' />
+                <Image src={st4} alt="carousel image 4" loading='lazy' className='item' />
             </div>
         </Container>
     )

@@ -40,6 +40,7 @@ export const Footer = () => {
             <div className='links social'>
                 <h3>Acompanhe a gente</h3>
                 <p>nas nossas redes sociais</p>
+
                 <div>
                     <picture>
                         <source srcSet={insta} />

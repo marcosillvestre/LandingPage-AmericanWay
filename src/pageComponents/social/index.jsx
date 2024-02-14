@@ -35,7 +35,6 @@ export const Social = () => {
                                 </Image>
 
                             </a>
-
                         ))
                     }
                 </div>

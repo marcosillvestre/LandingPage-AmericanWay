@@ -37,6 +37,12 @@ h3{
     div{
         margin: 1rem 0;
     }
+    picture {
+        img{
+            width: 35px;
+            height: 35px;
+        }
+    }
 }
 
 @media (max-width: 990px) {
@@ -54,7 +60,9 @@ h3{
 `
 
 export const Image = styled.img`
-
+image-rendering: optimizeQuality;
+width: 200px;
+height: 200px;
 @media (max-width: 990px) {
     width: 200px;
 }
