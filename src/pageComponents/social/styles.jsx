@@ -15,6 +15,7 @@ padding: 15rem 0;
     gap: 5rem;
     height: max-content;
     flex-wrap: wrap;
+    padding: 0 20rem;
 }
 
 .icon{
@@ -23,8 +24,7 @@ justify-content: center;
 }
 `
 export const Image = styled.div`
-padding: 20rem;
-width: 40rem;
+padding: 15rem;
 border-radius: 3rem;
 display: flex;
 align-items: center;
@@ -34,9 +34,9 @@ transition: all.6s;
         scale: 1.03;
     }
     @media (max-width: 990px){
-    padding: 12rem;
+    padding: 10rem;
         img{
-            height: 20rem;
+            height: 10rem;
         }
 }
 

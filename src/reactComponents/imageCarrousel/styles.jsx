@@ -21,18 +21,25 @@ padding: 0 15px;
 div{
     overflow-x: scroll;
     overflow-y: hidden;
+    height: 80rem;
+
 }
     }
 `
 export const Image = styled.img`
 width: max-content;
 height: max(20rem, 70rem);
-&:hover {
+
+    &:hover {
     transition: .3s;
         scale: 1.03 ;
     }
-     @media (max-width: 1445px) {
-height: max(20rem, 65rem);
+        @media (max-width: 1445px) {
+    height: max(30rem, 65rem);
+
+    }
+        @media (max-width: 990px) {
+height: 100%;
 
     }
 `
