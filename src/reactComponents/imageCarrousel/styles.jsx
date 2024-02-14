@@ -21,7 +21,7 @@ padding: 0 15px;
 div{
     overflow-x: scroll;
     overflow-y: hidden;
-    height: 80rem;
+    /* height: 80rem; */
 
 }
     }
@@ -39,7 +39,6 @@ height: max(20rem, 70rem);
 
     }
         @media (max-width: 990px) {
-height: 100%;
-
+    width: 100%;
     }
 `

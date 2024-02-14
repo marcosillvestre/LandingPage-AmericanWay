@@ -14,8 +14,9 @@ padding: 15rem 0;
     justify-content: center;
     gap: 5rem;
     height: max-content;
-    flex-wrap: wrap;
-    padding: 0 20rem;
+    @media (max-width:990px){
+    flex-direction: column;
+    }
 }
 
 .icon{
