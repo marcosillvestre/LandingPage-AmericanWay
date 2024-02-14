@@ -1,7 +1,9 @@
 
-import { About, Ebook, FormPage, Header, Metodology, TestEnglish, TestEspanish, TestTech, Unities } from '../pageComponents'
-import { Footer } from '../pageComponents/footer/index.jsx'
-import Social from '../pageComponents/social/index.jsx'
+import {
+  About, Ebook, Footer, FormPage,
+  Header, Metodology, Social, TestEnglish,
+  TestEspanish, TestTech, Unities
+} from '../pageComponents'
 import { ReportsCarrousel } from '../reactComponents/index.jsx'
 import { Container } from './styles.jsx'
 function HomePage() {

@@ -50,7 +50,8 @@ article{
 
 .tech{
     z-index: 1;
-    height: min-content;
+    /* height: 90rem; */
+    width: 90rem;
 }
 
 

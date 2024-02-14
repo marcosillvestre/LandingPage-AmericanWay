@@ -17,11 +17,11 @@ export const Footer = () => {
             <div className='links'>
                 <h3>Metodologia</h3>
                 <a href="#">Cursos online</a>
-                <a href="#">Cursos de inglês</a>
-                <a href="#">Cursos de espanhol</a>
-                <a href="#">Cursos de informática</a>
+                <a href="#english">Cursos de inglês</a>
+                <a href="#spanish">Cursos de espanhol</a>
+                <a href="#tecnologie">Cursos de informática</a>
                 <a href="#">Aula experimental</a>
-                <a href="#">Ebook de inglês</a>
+                <a href="#ebook">Ebook de inglês</a>
                 <a href="#">Teste seu inglês</a>
                 <a href="#">Teste seu espanhol</a>
             </div>
@@ -29,10 +29,10 @@ export const Footer = () => {
             <div className='links'>
                 <h3>Institucional</h3>
                 <a href="#">Quem somos</a>
-                <a href="#">Unidades</a>
-                <a href="#">Fale conosco</a>
+                <a href="#unities">Unidades</a>
+                <a href="#social-media">Fale conosco</a>
                 <a href="#">Parcerias</a>
-                <a href="#">Depoimentos</a>
+                <a href="#carousel">Depoimentos</a>
                 <a href="#">Dicas de inglês</a>
                 <a href="#">Termos de privacidade</a>
             </div>

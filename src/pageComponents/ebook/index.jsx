@@ -5,7 +5,7 @@ import { Container, DownloadEbook, Section } from './styles'
 
 export const Ebook = () => {
     return (
-        <Container style={{ backgroundImage: `url(${(ebook)})` }}>
+        <Container style={{ backgroundImage: `url(${(ebook)})` }} id='ebook'>
             <Section>
                 <h1 >Ebook gratuito</h1>
                 <h4>baixe seu ebook de inglês</h4>

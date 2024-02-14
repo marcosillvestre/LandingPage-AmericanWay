@@ -19,19 +19,20 @@ width: 70%;
 padding: 1rem 1.4rem;
 text-align: center;
 }
-.parag{
-width: 40rem;
-display: flex;
-justify-content: center;
-border-right: .12rem solid #737373;
-font-size: 2.5rem;
+    .parag{
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    border-right: .12rem solid #737373;
+    font-size: 2.5rem;
 }
 .test{
-&:hover{
-background-color: #fff;
-color:#ff6100;
-transition: 0.2s ;
-}
+    &:hover{
+        transition: .1s ease-in-out ;
+        background-color: #fff;
+        color:#ff6100;
+        font-size: 3rem;
+    }
 }
 @media (max-width: 750px) {
 height: 13rem;

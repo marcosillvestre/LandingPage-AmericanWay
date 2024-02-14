@@ -3,7 +3,7 @@ import { Container, Section } from './styles'
 
 export const About = () => {
     return (
-        <Container style={{ backgroundImage: `url(${(bg)})` }}>
+        <Container style={{ backgroundImage: `url(${(bg)})` }} id='about'>
             <Section>
 
                 <h1> Quem somos ? </h1>

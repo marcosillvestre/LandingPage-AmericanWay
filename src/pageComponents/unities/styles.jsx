@@ -71,9 +71,9 @@ align-items: center;
 justify-content: center;
 &:hover{
     transition: .1s ease-in-out ;
-    border: .7rem solid #f5f5f5;
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     background-color: #3549d0;
+    
 
 }
 

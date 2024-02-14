@@ -7,7 +7,9 @@ export const FormPage = () => {
 
     return (
         <Container
-            style={{ backgroundImage: `url(${(logo)})` }}>
+            style={{ backgroundImage: `url(${(logo)})` }}
+            id='form'
+        >
 
 
 

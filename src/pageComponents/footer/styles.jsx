@@ -14,7 +14,7 @@ h3{
     display: flex;
     flex-direction: column;
 
-    a[href$='#']{
+    a[href*='#']{
         text-decoration: none;
         color: #222;
         font-size: 1.8rem;

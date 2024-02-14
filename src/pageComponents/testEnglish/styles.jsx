@@ -29,9 +29,10 @@ font-size: 2.5rem;
 }
 .test{
 &:hover{
+    transition: .1s ease-in-out ;
+        font-size: 3rem;
     background-color: #fff;
     color: #f14477;
-    transition: 0.2s ;
 }
 }
     @media (max-width: 990px) {
@@ -97,11 +98,12 @@ font-size: 3.8rem;
 
 .city{
 position: absolute;
-translate: 10rem 30rem;
+translate: 10rem 15rem;
 }
 .watch{
-translate: 3rem 0;
-height: max-content;
+translate: 30rem 0;
+height: 95rem;
+margin: 0 auto;
 }
 
     @media (max-width: 1500px) {
@@ -128,9 +130,9 @@ height: max-content;
         }
     }
         .watch{
-width: 100vw;
-margin: 0 auto;
-height: max-content;
+        width: 85rem;
+        height: 100rem;
+        margin: 0 auto;
         }
     }
 `

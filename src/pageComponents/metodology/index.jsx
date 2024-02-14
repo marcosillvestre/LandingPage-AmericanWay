@@ -4,7 +4,7 @@ import { Container, Hearths, Section } from './styles'
 
 export const Metodology = () => {
     return (
-        <Container>
+        <Container id='metodology'>
             <Section>
                 <span>
                     <h1> Metodologia </h1>
@@ -42,13 +42,13 @@ export const Metodology = () => {
                     ))
                 }
             </div>
-            <picture>
+            <Hearths>
                 <source srcSet={hearth} />
-                <Hearths
+                <img
                     alt="American way logo - Imagem de corações meramente ilustrativa"
                     loading='lazy'
                     className='hearth' />
-            </picture>
+            </Hearths>
 
         </Container>
     )

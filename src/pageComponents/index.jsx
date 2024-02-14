@@ -8,3 +8,7 @@ export * from './testTech';
 export * from './ebook';
 export * from './metodology';
 export * from './unities';
+
+export * from './footer';
+export * from './social';
+

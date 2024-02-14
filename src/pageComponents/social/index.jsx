@@ -4,11 +4,12 @@ import { Container, Image, Section } from './styles';
 
 import social from '../../services/socialMedia.jsx';
 
-const Social = () => {
+export const Social = () => {
 
 
     return (
         <Container
+            id='social-media'
             style={{
                 backgroundImage: `url(${(logo)})`,
                 backgroundSize: 'cover'
@@ -44,5 +45,3 @@ const Social = () => {
         </Container>
     )
 }
-
-export default Social

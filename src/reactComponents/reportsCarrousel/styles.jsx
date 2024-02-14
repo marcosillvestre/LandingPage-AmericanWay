@@ -34,6 +34,12 @@ h1{
         &:visited{
     color: #fff;
     }
+    &:hover{
+        transition: .1s ease-in-out ;
+        font-size: 4.7rem;
+    background-color: #fe8438;
+
+    }
 
 }
 @media (max-width: 990px) {

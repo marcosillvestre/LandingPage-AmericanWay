@@ -63,10 +63,12 @@ img{
 
 `
 
-export const Hearths = styled.img`
+export const Hearths = styled.picture`
     z-index: 0;
-    height: 100vh;
-    translate: -9rem -139rem;
+    height: 50rem;
+    width: auto;
+    translate: -5rem 0rem;
+    position: absolute;
 @media (max-width: 1500px) {
     /* position: relative; */
     translate: 0;
