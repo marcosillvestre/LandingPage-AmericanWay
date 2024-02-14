@@ -138,9 +138,9 @@ div{
 
 export const Wrapper = styled.div`
     background-color: #fff;
-    border-radius: 50%;
+    border-radius: 80%;
     height: 14rem;
-    width: 23rem;
+    width: 25rem;
     display: flex;
     justify-content: center;
     z-index: 4;
@@ -149,14 +149,14 @@ export const Wrapper = styled.div`
         position: absolute;
         top: 50px;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -40%);
     }
     `
 
 export const Logo = styled.img`
     height: 10rem;
     width: 16rem;
-    translate: 0 35%;
+    translate: 0 20%;
     @media (max-width: 990px) {
         translate: 0 50%;
         width: 13rem;

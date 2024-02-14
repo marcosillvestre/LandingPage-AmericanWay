@@ -43,7 +43,6 @@ export const Metodology = () => {
                 }
             </div>
             <picture>
-                {/* <source media="(max-width: 768px)" srcSet="/" */}
                 <source srcSet={hearth} />
                 <Hearths
                     alt="American way logo - Imagem de corações meramente ilustrativa"

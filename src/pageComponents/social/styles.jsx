@@ -9,10 +9,10 @@ text-align: center;
 padding: 15rem 0;
 
 .container{
-    padding: 0 15rem;
+    margin: 5rem auto;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
     height: max-content;
     flex-wrap: wrap;
 }
@@ -34,9 +34,9 @@ transition: all.6s;
         scale: 1.03;
     }
     @media (max-width: 990px){
-        height: 35rem;
+    padding: 12rem;
         img{
-            height: 25rem;
+            height: 20rem;
         }
 }
 

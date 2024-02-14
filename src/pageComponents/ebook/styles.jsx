@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.main`
 
 background-color: #007dff;
-padding: 10rem 0 28rem  0rem;
+padding: 10rem 0 33rem  0rem;
 background-repeat: no-repeat;
 background-size: cover;
 

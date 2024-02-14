@@ -17,7 +17,7 @@ padding: 10% 25%;
 display: grid;
 gap: 6rem;
 grid-template-columns: 
-repeat(auto-fit, minmax(220px, 3fr));
+repeat(auto-fit, minmax(250px, 3fr));
 z-index: 1;
 span{
 background-color: #f5f5f5;
@@ -48,7 +48,7 @@ padding: 10rem 0rem;
     width: initial;
     padding: 0px 8rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(129px, 3fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 3fr));
         span{
             padding: 2rem .7rem;
             font-size: 1.8rem;
@@ -64,10 +64,9 @@ img{
 `
 
 export const Hearths = styled.img`
-z-index: 0;
-height: 100vh;
-position: absolute;
-translate: 8rem 0;
+    z-index: 0;
+    height: 100vh;
+    translate: -9rem -139rem;
 @media (max-width: 1500px) {
     /* position: relative; */
     translate: 0;
