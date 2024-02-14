@@ -98,7 +98,6 @@ font-weight: bolder;
 
 &:hover{
     transition: .1s ease-in-out ;
-    border: .6rem solid #f5f5f5;
     font-size: 3.4rem;
 }
 

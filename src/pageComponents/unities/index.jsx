@@ -18,10 +18,11 @@ export const Unities = () => {
                                 <p >
                                     Unidade no {res.unity}
                                 </p>
-                                <iframe
+                                {/* <iframe async
                                     src={res.iframe}
                                     loading="lazy"
-                                    referrerPolicy="no-referrer-when-downgrade" />
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                /> */}
 
                                 <p>Contato:</p>
                                 <p>{res.contact}</p>

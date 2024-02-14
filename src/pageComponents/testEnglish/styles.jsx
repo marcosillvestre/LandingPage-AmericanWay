@@ -64,6 +64,7 @@ font-weight: 600;
 background-color: #f14477;
 border-radius: 0.8rem;
 cursor: pointer;
+
 @media (max-width: 750px) {
 height: ${props => props.button ? "6rem" : "3rem"};
 width: ${props => props.button ? "35%" : "50%"};
@@ -129,7 +130,7 @@ margin: 0 auto;
         }
     }
         .watch{
-        width: 100%;
+        height: 80rem;
         margin: 0 auto;
         }
     }

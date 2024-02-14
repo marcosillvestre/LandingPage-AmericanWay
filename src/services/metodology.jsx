@@ -14,10 +14,6 @@ const present = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/present.sv
 const suport = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/suport.svg"
 
 
-
-
-
-
 const methods = [
     {
         id: 1,

@@ -7,8 +7,6 @@ const ig = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/wppMedia.svg"
 const yt = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/ytbMedia.svg"
 
 
-
-
 const social = [
     {
         id: 1,
