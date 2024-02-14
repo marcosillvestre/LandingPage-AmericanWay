@@ -7,6 +7,25 @@ justify-content: space-around;
 align-items: center;
 padding: 3rem 0;
 
+.copy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img{
+        translate: 10% 0;
+    }
+    h1{
+    font-size: 3rem;
+    color: #ce1313;
+    }
+    h2{
+    font-size: 3rem;
+    color: #024d9e;
+    }
+}
+
+
 h3{
     font-size: 2rem;
 }
@@ -56,6 +75,8 @@ h3{
     }
     }
 }
+
+
 
 `
 

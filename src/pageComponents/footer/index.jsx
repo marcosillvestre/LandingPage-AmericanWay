@@ -1,18 +1,23 @@
-import copy from '../../assets/copy.svg'
 import faceb from '../../assets/faceb.svg'
 import insta from '../../assets/insta.svg'
 import ytb from '../../assets/ytb.svg'
 
-import { Container, Images } from './styles.jsx'
+
+import { Container } from './styles.jsx'
+const pic = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/aw.svg"
 
 export const Footer = () => {
 
     return (
         <Container>
-            <picture>
-                <source srcSet={copy} />
-                <Images />
-            </picture>
+
+            <div className='copy'>
+                <img src={pic} alt="" />
+                <h1>AMERICAN</h1>
+                <h2>Way</h2>
+                <p>Copyright 2024 American Way </p>
+                <p>Todos os direitos reservados </p>
+            </div>
 
             <div className='links'>
                 <h3>Metodologia</h3>
@@ -46,6 +51,8 @@ export const Footer = () => {
                         <source srcSet={insta} />
                         <img alt="instagram - logo" />
                     </picture>
+
+
                     <picture>
                         <source srcSet={ytb} />
                         <img alt="youtube - logo" />
