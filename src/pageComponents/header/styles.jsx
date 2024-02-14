@@ -126,15 +126,7 @@ div{
     
 }
     @media (max-width: 990px){
-         /* display: none; */
-/* a{
-        z-index: 1;
-    text-decoration: none;
-    font-weight: bolder;
-    color: rgb(34, 34, 34);
-    cursor: pointer;
-    font-size: 2.7em;
-    } */
+
 }
 `
 
@@ -164,8 +156,9 @@ export const Wrapper = styled.div`
 export const Logo = styled.img`
     height: 10rem;
     width: 16rem;
-    translate: 0 25%;
-    @media (max-width: 768px) {
+    translate: 0 35%;
+    @media (max-width: 990px) {
+        translate: 0 50%;
         width: 13rem;
         height: 8rem;
         

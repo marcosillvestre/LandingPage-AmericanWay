@@ -1,5 +1,5 @@
 import React from 'react'
-import aw from '../../assets/aws.svg'
+import aw from '../../assets/aw.svg'
 import { AnchorMobileList, Container, ListAnchor, Logo, MobileNavigation, Navigation, Wrapper } from './styles.jsx'
 
 
@@ -19,7 +19,9 @@ export const Header = () => {
                     <Wrapper $clicked={bool}>
                         <picture>
                             <source srcSet={aw} />
-                            <Logo alt="American Way - logo" loading='lazy' />
+                            <Logo
+                                alt="American Way - logo"
+                                loading='lazy' />
                         </picture>
                     </Wrapper>
 

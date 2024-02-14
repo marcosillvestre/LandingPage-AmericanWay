@@ -13,9 +13,6 @@ export const ImageCarrousel = () => {
                 <Image src={st} alt="" loading='lazy' className='item' />
 
                 <Image src={st2} alt="" loading='lazy' className='item' />
-            </div>
-
-            <div>
                 <Image src={st3} alt="" loading='lazy' className='item' />
 
                 <Image src={st4} alt="" loading='lazy' className='item' />
