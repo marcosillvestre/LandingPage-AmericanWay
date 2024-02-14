@@ -112,7 +112,6 @@ margin: 0 auto;
         }
         .watch{
             translate: 3rem 0;
-            height: max-content;
     }
     }
 

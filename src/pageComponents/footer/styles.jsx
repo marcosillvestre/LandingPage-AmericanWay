@@ -59,7 +59,7 @@ h3{
 
 `
 
-export const Image = styled.img`
+export const Images = styled.img`
 image-rendering: optimizeQuality;
 width: 200px;
 height: 200px;

@@ -1,7 +1,11 @@
-import city from '../../assets/city.svg'
-import watch from '../../assets/womanw.svg'
+// import city from '../../assets/city.svg'
+// import watch from '../../assets/womanw.svg'
+
+const city = "https://ik.imagekit.io/khqnnhktw/tr:w-600,h-00/landing-page/assets/city.svg"
+const watch = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/womanw.svg?"
 import { ImageCarrousel } from '../../reactComponents'
 // import Carrousel from '../../reactComponents/carrousel'
+
 import { Container, DivButton, Main } from './styles'
 
 export const TestEnglish = () => {
@@ -39,8 +43,8 @@ export const TestEnglish = () => {
                 <img
                     src={city}
                     alt="American Way City -  Ponte da cidade de San francisco"
-                    className='city'
                     loading='lazy'
+                    className='city'
                 />
 
                 <img

@@ -1,5 +1,6 @@
-import tech from '../../assets/tech.svg'
+// import tech from '../../assets/tech.svg'
 import { Container, DivButton, Main } from './styles'
+const tech = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/tech.svg"
 
 export const TestTech = () => {
     return (

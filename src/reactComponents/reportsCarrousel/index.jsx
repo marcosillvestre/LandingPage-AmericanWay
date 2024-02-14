@@ -36,7 +36,6 @@ export const ReportsCarrousel = () => {
 
                 <Data
                     key={slides[index]?.name}
-                    slide={slides[index]}
                 >
 
                     <div className="profile">

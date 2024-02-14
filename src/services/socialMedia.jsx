@@ -1,6 +1,12 @@
-import wpp from '../assets/instaMedia.svg'
-import ig from '../assets/wppMedia.svg'
-import yt from '../assets/ytbMedia.svg'
+// import wpp from '../assets/instaMedia.svg'
+// import ig from '../assets/wppMedia.svg'
+// import yt from '../assets/ytbMedia.svg'
+
+const wpp = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/instaMedia.svg"
+const ig = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/wppMedia.svg"
+const yt = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/ytbMedia.svg"
+
+
 
 
 const social = [

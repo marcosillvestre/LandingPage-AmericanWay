@@ -1,7 +1,6 @@
 import hearth from '../../assets/hearth.svg'
 import methods from '../../services/metodology'
 import { Container, Hearths, Section } from './styles'
-
 export const Metodology = () => {
     return (
         <Container id='metodology'>
@@ -34,6 +33,7 @@ export const Metodology = () => {
                 {
                     methods.map(res => (
                         <span key={res.id}>
+
                             <img src={res.img}
                                 alt={res.alt}
                                 loading='lazy'

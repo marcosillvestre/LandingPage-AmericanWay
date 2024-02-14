@@ -1,9 +1,22 @@
-import books from '../assets/books.svg'
-import method from '../assets/method.svg'
-import perfect from '../assets/perfect.svg'
-import pratice from '../assets/pratice.svg'
-import present from '../assets/present.svg'
-import suport from '../assets/suport.svg'
+// import books from '../assets/books.svg'
+// import method from '../assets/method.svg'
+// import perfect from '../assets/perfect.svg'
+// import pratice from '../assets/pratice.svg'
+// import present from '../assets/present.svg'
+// import suport from '../assets/suport.svg'
+
+
+const books = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/books.svg"
+const method = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/method.svg"
+const perfect = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/perfect.svg"
+const pratice = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/pratice.svg"
+const present = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/present.svg"
+const suport = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/suport.svg"
+
+
+
+
+
 
 const methods = [
     {

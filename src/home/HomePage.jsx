@@ -6,6 +6,7 @@ import {
 } from '../pageComponents'
 import { ReportsCarrousel } from '../reactComponents/index.jsx'
 import { Container } from './styles.jsx'
+
 function HomePage() {
 
   return (

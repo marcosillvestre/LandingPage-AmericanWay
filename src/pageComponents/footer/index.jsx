@@ -3,7 +3,7 @@ import faceb from '../../assets/faceb.svg'
 import insta from '../../assets/insta.svg'
 import ytb from '../../assets/ytb.svg'
 
-import { Container, Image } from './styles.jsx'
+import { Container, Images } from './styles.jsx'
 
 export const Footer = () => {
 
@@ -11,7 +11,7 @@ export const Footer = () => {
         <Container>
             <picture>
                 <source srcSet={copy} />
-                <Image />
+                <Images />
             </picture>
 
             <div className='links'>

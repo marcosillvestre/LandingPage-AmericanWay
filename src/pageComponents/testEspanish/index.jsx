@@ -1,6 +1,9 @@
-import bman from '../../assets/bman.svg'
-import city2 from '../../assets/city2.svg'
+// import bman from '../../assets/bman.svg'
+// import city2 from '../../assets/city2.svg'
 import { Container, DivButton, Main } from './styles'
+
+const bman = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/bman.svg"
+const city2 = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/city2.svg"
 
 export const TestEspanish = () => {
     return (

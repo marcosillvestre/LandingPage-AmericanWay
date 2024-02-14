@@ -1,5 +1,5 @@
 import ebook from '../../assets/ebook1.svg'
-import book from '../../assets/library.svg'
+import library from '../../assets/library.svg'
 import { Container, DownloadEbook, Section } from './styles'
 
 
@@ -32,7 +32,7 @@ export const Ebook = () => {
                 </div>
 
                 <picture>
-                    <source srcSet={book} />
+                    <source srcSet={library} />
                     <img
                         alt="Book - ebook de própria autoria da escola"
                         loading='lazy'
