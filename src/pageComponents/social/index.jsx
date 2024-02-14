@@ -31,7 +31,10 @@ export const Social = () => {
                                 <Image
                                     style={{ backgroundColor: res.color }}
                                 >
-                                    <img src={res.image} alt="" />
+                                    <img
+                                        src={res.image} alt="social media - icons"
+                                        loading='lazy'
+                                    />
                                 </Image>
 
                             </a>

@@ -34,7 +34,10 @@ export const Metodology = () => {
                 {
                     methods.map(res => (
                         <span key={res.id}>
-                            <img src={res.img} alt={res.alt} />
+                            <img src={res.img}
+                                alt={res.alt}
+                                loading='lazy'
+                            />
                             <hr />
                             <h3>{res.text}</h3>
                         </span>

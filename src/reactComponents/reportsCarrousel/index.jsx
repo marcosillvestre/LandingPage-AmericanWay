@@ -42,7 +42,12 @@ export const ReportsCarrousel = () => {
                     <div className="profile">
 
                         <div className="sub-profile">
-                            <img src={slides[index]?.image} alt={slides[index].alt} />
+                            <img
+                                src={slides[index]?.image}
+                                alt={slides[index].alt}
+                                loading='lazy'
+
+                            />
                             <h2>{slides[index].name}</h2>
                         </div>
 

@@ -34,6 +34,8 @@ export const TestTech = () => {
                     src={tech}
                     alt="American Way Logo"
                     className='tech'
+                    loading='lazy'
+
                 />
 
             </Main>
