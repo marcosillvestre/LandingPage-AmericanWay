@@ -11,10 +11,10 @@ export const Header = () => {
 
             <Navigation >
                 <ListAnchor >
-                    <a href="">Sobre</a>
+                    <a href="#about">Sobre</a>
 
                     <a href="">Cursos</a>
-                    <a href="">Teste seu inglês</a>
+                    <a href="#english">Teste seu inglês</a>
 
                     <Wrapper $clicked={bool}>
                         <picture>
@@ -28,8 +28,8 @@ export const Header = () => {
 
 
                     <a href="">Online</a>
-                    <a href="">Unidades</a>
-                    <a href="">Fale Conosco</a>
+                    <a href="#unities">Unidades</a>
+                    <a href="#socia-media">Fale Conosco</a>
 
                 </ListAnchor>
             </Navigation>
