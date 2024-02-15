@@ -131,6 +131,7 @@ margin: 0 auto;
     }
         .watch{
         translate:  0;
+        height: 55rem;
         max-height: 100rem;
         width: 100vw;
         margin: 0 auto;
