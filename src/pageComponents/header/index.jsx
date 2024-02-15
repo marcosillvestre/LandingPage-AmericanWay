@@ -20,8 +20,9 @@ export const Header = () => {
                         <picture>
                             <source srcSet={aw} />
                             <Logo
+                                loading='lazy'
                                 alt="American Way - logo"
-                                loading='lazy' />
+                            />
                         </picture>
                     </Wrapper>
 

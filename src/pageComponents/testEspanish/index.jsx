@@ -11,7 +11,12 @@ export const TestEspanish = () => {
 
             <Main>
 
-                <img src={bman} alt="American Way Logo" className='bman' loading='lazy' />
+                <img
+                    loading='lazy'
+                    src={bman}
+                    alt="American Way Logo"
+                    className='bman'
+                />
                 <article>
 
                     <h1>Curso de Espanhol</h1>
@@ -35,7 +40,12 @@ export const TestEspanish = () => {
                     </p>
 
                 </article>
-                <img src={city2} alt="American Way Logo" className='city2' loading='lazy' />
+                <img
+                    loading='lazy'
+                    src={city2}
+                    alt="American Way Logo"
+                    className='city2'
+                />
 
 
             </Main>

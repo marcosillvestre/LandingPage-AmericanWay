@@ -1,13 +1,11 @@
 // import city from '../../assets/city.svg'
 // import watch from '../../assets/womanw.svg'
+// import Carrousel from '../../reactComponents/carrousel'
 
 const city = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/city.svg"
 const watch = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/womanw.svg?"
 
 import { ImageCarrousel } from '../../reactComponents'
-
-// import Carrousel from '../../reactComponents/carrousel'
-
 import { Container, DivButton, Main } from './styles'
 
 export const TestEnglish = () => {

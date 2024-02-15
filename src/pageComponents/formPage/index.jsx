@@ -1,7 +1,9 @@
 import logo from '../../assets/blueBackg.svg'
-import woman from '../../assets/woman.svg'
+// import woman from '../../assets/woman.svg'
 import { Form } from '../../reactComponents'
 import { Container, Image } from './styles.jsx'
+
+const woman = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/woman.svg"
 
 export const FormPage = () => {
 

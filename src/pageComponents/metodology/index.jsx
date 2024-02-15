@@ -34,9 +34,10 @@ export const Metodology = () => {
                     methods.map(res => (
                         <span key={res.id}>
 
-                            <img src={res.img}
-                                alt={res.alt}
+                            <img
                                 loading='lazy'
+                                src={res.img}
+                                alt={res.alt}
                             />
                             <hr />
                             <h3>{res.text}</h3>
@@ -48,8 +49,8 @@ export const Metodology = () => {
             <Hearths>
                 <source srcSet={hearth} />
                 <img
-                    alt="American way logo - Imagem de corações meramente ilustrativa"
                     loading='lazy'
+                    alt="American way logo - Imagem de corações meramente ilustrativa"
                     className='hearth' />
             </Hearths>
 
