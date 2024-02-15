@@ -69,6 +69,8 @@ img{
     img{
         display: block;
         width: 70vw;
+        height: 80rem;
+        max-height: 100rem;
     }
 
 }

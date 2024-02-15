@@ -99,20 +99,20 @@ font-size: 3.8rem;
 
 .city{
 position: absolute;
-translate: 10rem 15rem;
+translate: -100rem 10rem;
 }
 .watch{
-translate: 30rem 0;
+translate: 3rem 0;
 height: 95rem;
 margin: 0 auto;
 }
 
-    @media (max-width: 1500px) {
+    @media (max-width: 1400px) {
         .city{
             display: none;
         }
         .watch{
-            translate: 23rem 1rem;
+            translate: 2rem 1rem;
     }
     }
 

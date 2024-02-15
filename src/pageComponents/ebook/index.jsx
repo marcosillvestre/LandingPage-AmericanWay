@@ -36,7 +36,6 @@ export const Ebook = () => {
                 <picture>
                     <source media="(max-width:990px)" srcSet={library} />
                     <source media="(min-width:990px)" srcSet={libraryNet} />
-
                     <img
                         loading='lazy'
                         alt="Book - ebook de própria autoria da escola"
