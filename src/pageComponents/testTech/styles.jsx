@@ -86,6 +86,7 @@ height: 100%;
 max-height: 100rem;
 width: 100vw;
 margin: 0 auto;
+image-rendering: optimizeQuality;
     }
         }
 
