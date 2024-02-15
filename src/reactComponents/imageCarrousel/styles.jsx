@@ -28,7 +28,7 @@ div{
 `
 export const Image = styled.img`
 width: max-content;
-height: 45rem;
+height: max(20rem, 70rem);
 
     &:hover {
     transition: .3s;
@@ -39,6 +39,7 @@ height: 45rem;
 
     }
         @media (max-width: 990px) {
-    width: 100%;
+    width: 50rem;
+    height: 75rem;
     }
 `
