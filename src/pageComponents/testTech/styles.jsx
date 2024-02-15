@@ -82,6 +82,7 @@ justify-content: center;
 text-align: center;
 }
 .tech{
+height: 80rem;
 max-height: 100rem;
 width: 100vw;
 margin: 0 auto;
