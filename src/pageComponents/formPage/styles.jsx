@@ -30,6 +30,9 @@ font-size: 3rem;
 
 }
 
+ @media (max-width: 768px) {
+        margin: 10rem 0;
+    }
 }
 
 @media (max-width: 990px) { 
