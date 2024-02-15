@@ -41,12 +41,16 @@ export const ReportsCarrousel = () => {
                     <div className="profile">
 
                         <div className="sub-profile">
-                            <img
-                                src={slides[index]?.image}
-                                alt={slides[index].alt}
-                                loading='lazy'
+                            <picture>
 
-                            />
+                                <source media="(max-width:990px)" srcSet={slides[index].image} />
+                                <source media="(min-width:990px)" srcSet={slides[index].imageNet} />
+
+                                <img
+                                    loading='lazy'
+                                    alt={slides[index].alt}
+                                />
+                            </picture>
                             <h2>{slides[index].name}</h2>
                         </div>
 

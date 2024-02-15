@@ -21,7 +21,7 @@ flex-direction: column;
 justify-content: center;
 
 
-.text-2{
+ &:nth-child(2){
     font-size: 4.4rem;
 }
 @media (max-width: 1300px) {
@@ -37,6 +37,12 @@ flex-direction: column;
 justify-content: space-between;
 picture{
     order: 3;
+    width: max-content;
+    height: 90vh;
+    @media (max-width: 990px) {
+    height: 72rem;
+    width: 80vw;
+    }
 }
 }
 
@@ -45,12 +51,11 @@ picture{
 
 export const Image = styled.img`
     width: max-content;
-    height: 90vh;
-    translate: -5% 1.48%;
-    
-    @media (max-width: 1075px) {
-    height: auto;
-    width: 85vw;
+    height: 100%;
+    translate: 0 1.88%;
+    @media (max-width: 990px) {
+    height: 100%;
+    width: 100%;
 
     }
 

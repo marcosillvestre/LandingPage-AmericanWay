@@ -1,3 +1,4 @@
+import aw from '../../assets/aw.svg'
 import faceb from '../../assets/faceb.svg'
 import insta from '../../assets/insta.svg'
 import ytb from '../../assets/ytb.svg'
@@ -12,7 +13,21 @@ export const Footer = () => {
         <Container>
 
             <div className='copy'>
-                <img src={pic} alt="" />
+                <picture>
+                    <source
+                        media="(max-width: 990px)"
+                        srcSet={pic}
+                    />
+                    <source
+                        media='(min-width: 990px)'
+                        srcSet={aw}
+                    />
+                    <img
+                        loading='lazy'
+                        className="lazyload"
+                        alt="american way - logo"
+                    />
+                </picture>
                 <h1>AMERICAN</h1>
                 <h2>Way</h2>
                 <p>Copyright 2024 American Way </p>

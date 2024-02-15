@@ -33,12 +33,15 @@ export const Metodology = () => {
                 {
                     methods.map(res => (
                         <span key={res.id}>
+                            <picture>
 
-                            <img
-                                loading='lazy'
-                                src={res.img}
-                                alt={res.alt}
-                            />
+                                <source media="(max-width:990px)" srcSet={res.img} />
+                                <source media="(min-width:990px)" srcSet={res.secImg} />
+                                <img
+                                    loading='lazy'
+                                    alt={res.alt}
+                                />
+                            </picture>
                             <hr />
                             <h3>{res.text}</h3>
                         </span>

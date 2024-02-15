@@ -1,6 +1,6 @@
-// import tech from '../../assets/tech.svg'
+import tech from '../../assets/tech.svg'
 import { Container, DivButton, Main } from './styles'
-const tech = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/tech.svg"
+const techNet = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/tech.svg"
 
 export const TestTech = () => {
     return (
@@ -31,13 +31,15 @@ export const TestTech = () => {
                     </p>
                 </article>
 
-                <img
-                    loading='lazy'
-                    src={tech}
-                    alt="American Way Logo"
-                    className='tech'
-
-                />
+                <picture>
+                    <source media="(max-width:990px)" srcSet={tech} />
+                    <source media="(min-width:990px)" srcSet={techNet} />
+                    <img
+                        loading='lazy'
+                        alt="American Way Logo"
+                        className='tech'
+                    />
+                </picture>
 
             </Main>
 

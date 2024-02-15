@@ -31,10 +31,15 @@ export const Social = () => {
                                 <Image
                                     style={{ backgroundColor: res.color }}
                                 >
-                                    <img
-                                        loading='lazy'
-                                        src={res.image} alt="social media - icons"
-                                    />
+                                    <picture >
+                                        <source media="(max-width:990px)" srcSet={res.image} />
+                                        <source media="(min-width:990px)" srcSet={res.secImg} />
+
+                                        <img
+                                            loading='lazy'
+                                            alt="social media - icons"
+                                        />
+                                    </picture>
                                 </Image>
 
                             </a>

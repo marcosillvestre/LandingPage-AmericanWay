@@ -1,11 +1,13 @@
 import ebook from '../../assets/ebook1.svg'
+import library from '../../assets/library.svg'
 import { Container, DownloadEbook, Section } from './styles'
 
-const library = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/library.svg"
+const ebookNet = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/ebook1.svg"
+const libraryNet = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/library.svg"
 
 export const Ebook = () => {
     return (
-        <Container style={{ backgroundImage: `url(${(ebook)})` }} id='ebook'>
+        <Container style={{ backgroundImage: `url(${(ebookNet ? ebookNet : ebook)})` }} id='ebook'>
             <Section>
                 <h1 >Ebook gratuito</h1>
                 <h4>baixe seu ebook de inglês</h4>
@@ -32,7 +34,9 @@ export const Ebook = () => {
                 </div>
 
                 <picture>
-                    <source srcSet={library} />
+                    <source media="(max-width:990px)" srcSet={library} />
+                    <source media="(min-width:990px)" srcSet={libraryNet} />
+
                     <img
                         loading='lazy'
                         alt="Book - ebook de própria autoria da escola"

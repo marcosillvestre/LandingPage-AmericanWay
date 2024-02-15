@@ -1,9 +1,17 @@
 import bg from '../../assets/bg.svg'
 import { Container, Section } from './styles'
 
+const bgNt = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/bg.svg"
+
+
+
 export const About = () => {
     return (
-        <Container style={{ backgroundImage: `url(${(bg)})` }} id='about'>
+        <Container
+            style={{ backgroundImage: `url(${(bgNt ? bgNt : bg)})` }}
+            id='about'
+
+        >
             <Section>
 
                 <h1> Quem somos ? </h1>

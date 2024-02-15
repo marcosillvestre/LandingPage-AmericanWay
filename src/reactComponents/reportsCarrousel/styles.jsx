@@ -117,27 +117,30 @@ p{
     width: 100%;
     padding: 20px;
 }
-.sub-profile{
-    h2{
-        font-size: 3rem;
-    }
-    img{
-        width: 5rem;
-        height: 5rem;
-        background: none;
-    }
-}
+
 .profile {
     span{
         display: flex;
-        margin: 1rem  0;
+        margin: 1rem 0;
         svg{
             height: 2rem;
             width: 2rem;
         }
         
     }
+    .sub-profile{
+        h2{
+            font-size: 3rem;
+        }
+        img{
+            width: 5rem;
+            height: 5rem;
+            background: none;
+        }
+    }
 }
+
+
 `
 
 

@@ -16,18 +16,20 @@ export const FormPage = () => {
 
 
             <div className='container-text'>
-                <h1 className='text-1'>Derrube as</h1>
-                <h1 className='text-2'>fronteiras que cercam o</h1>
-                <h1 className='text-3'>seu sucesso!</h1>
+                <h1>Derrube as</h1>
+                <h1>fronteiras que cercam o</h1>
+                <h1>seu sucesso!</h1>
             </div>
 
             <picture>
                 <source srcSet={woman} />
                 <Image
+                    loading='lazy'
                     alt="American Way logo - Mulher sorridente"
                 />
 
             </picture>
+
             <Form />
         </Container>
     )

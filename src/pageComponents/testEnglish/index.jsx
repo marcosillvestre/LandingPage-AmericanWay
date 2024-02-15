@@ -1,9 +1,8 @@
-// import city from '../../assets/city.svg'
-// import watch from '../../assets/womanw.svg'
-// import Carrousel from '../../reactComponents/carrousel'
+import city from '../../assets/city.svg'
+import watch from '../../assets/womanw.svg'
 
-const city = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/city.svg"
-const watch = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/womanw.svg?"
+const cityNet = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/city.svg"
+const watchNet = "https://ik.imagekit.io/khqnnhktw/landing-page/assets/womanw.svg?"
 
 import { ImageCarrousel } from '../../reactComponents'
 import { Container, DivButton, Main } from './styles'
@@ -39,20 +38,25 @@ export const TestEnglish = () => {
                         Dessa forma, a diversão também otimiza o tempo de aprendizado, tornando o processo de aprendizado mais leve.
                     </p>
                 </article>
+                <picture>
+                    <source media="(max-width:990px)" srcSet={city} />
+                    <source media="(min-width:990px)" srcSet={cityNet} />
+                    <img
+                        loading='lazy'
+                        alt="American Way City -  Ponte da cidade de San francisco"
+                        className='city'
+                    />
+                </picture>
 
-                <img
-                    loading='lazy'
-                    src={city}
-                    alt="American Way City -  Ponte da cidade de San francisco"
-                    className='city'
-                />
-
-                <img
-                    loading='lazy'
-                    src={watch}
-                    alt="American Way Logo - Mulher sorridente lendo livro em Inglês"
-                    className='watch'
-                />
+                <picture>
+                    <source media="(max-width:990px)" srcSet={watch} />
+                    <source media="(min-width:990px)" srcSet={watchNet} />
+                    <img
+                        loading='lazy'
+                        alt="American Way Logo - Mulher sorridente lendo livro em Inglês"
+                        className='watch'
+                    />
+                </picture>
 
             </Main>
 
