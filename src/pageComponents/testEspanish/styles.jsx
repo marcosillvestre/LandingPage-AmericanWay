@@ -171,7 +171,7 @@ flex-direction: column;
         }
     .bman{
     width: 100vw;
-min-height: 100rem;
+max-height: 100rem;
     margin: 0 auto;
         }
         }

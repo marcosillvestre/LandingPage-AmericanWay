@@ -82,7 +82,7 @@ justify-content: center;
 text-align: center;
 }
 .tech{
-min-height: 100rem;
+max-height: 100rem;
 width: 100vw;
 margin: 0 auto;
     }
