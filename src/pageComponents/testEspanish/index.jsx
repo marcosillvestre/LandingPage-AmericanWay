@@ -10,7 +10,6 @@ export const TestEspanish = () => {
         <Container id='spanish'>
 
             <Main>
-
                 <img
                     loading='lazy'
                     src={bman}

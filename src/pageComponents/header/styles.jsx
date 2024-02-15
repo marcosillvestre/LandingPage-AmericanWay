@@ -156,7 +156,7 @@ export const Wrapper = styled.div`
 export const Logo = styled.img`
     height: 10rem;
     width: 16rem;
-    translate: 0 20%;
+    translate: 7% 25%;
     @media (max-width: 990px) {
         translate: 0 50%;
         width: 13rem;
