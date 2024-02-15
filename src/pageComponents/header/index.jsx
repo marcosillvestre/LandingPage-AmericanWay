@@ -56,12 +56,12 @@ export const Header = () => {
 
                     <AnchorMobileList $clicked={bool}>
                         <div>
-                            <a href="">Sobre</a>
+                            <a href="#about">Sobre</a>
                             <a href="">Cursos</a>
-                            <a href="">Teste seu inglês</a>
+                            <a href="#english">Teste seu inglês</a>
                             <a href="">Online</a>
-                            <a href="">Unidades</a>
-                            <a href="">Fale Conosco</a>
+                            <a href="#unities">Unidades</a>
+                            <a href="#social-media">Fale Conosco</a>
                         </div>
                     </AnchorMobileList>
                 </div>

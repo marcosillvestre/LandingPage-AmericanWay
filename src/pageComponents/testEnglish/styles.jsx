@@ -112,7 +112,7 @@ margin: 0 auto;
             display: none;
         }
         .watch{
-            translate: 3rem 0;
+            translate: 23rem 1rem;
     }
     }
 
@@ -130,7 +130,8 @@ margin: 0 auto;
         }
     }
         .watch{
-        height: 80rem;
+        translate:  0;
+        height: 85rem;
         margin: 0 auto;
         }
     }

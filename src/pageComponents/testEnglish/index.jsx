@@ -43,17 +43,17 @@ export const TestEnglish = () => {
                 </article>
 
                 <img
+                    loading='lazy'
                     src={city}
                     alt="American Way City -  Ponte da cidade de San francisco"
-                    loading='lazy'
                     className='city'
                 />
 
                 <img
+                    loading='lazy'
                     src={watch}
                     alt="American Way Logo - Mulher sorridente lendo livro em Inglês"
                     className='watch'
-                    loading='lazy'
                 />
 
             </Main>
