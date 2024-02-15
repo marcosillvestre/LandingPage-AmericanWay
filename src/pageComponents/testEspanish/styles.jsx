@@ -170,8 +170,8 @@ flex-direction: column;
         }
         }
     .bman{
-       width: 100vw;
-margin: 0 auto;
+    width: 100vw;
+    margin: 0 auto;
         }
         }
 

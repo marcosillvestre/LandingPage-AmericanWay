@@ -33,10 +33,11 @@ export const Section = styled.section`
     
     @media (max-width: 750px) { 
     gap: 2rem;
-    padding: 5rem 3rem ;
+    padding: 5rem 3rem 2rem ;
     background-color: #007dff;
     border-radius: 4rem;
     font-size: 2.4rem;
+    margin:  20rem auto;
     width: 75vw;
     p{
         text-align: justify;
