@@ -48,7 +48,7 @@ display: none;
     display: none;
     width: 40px;
     height: 30px ;
-    margin: 7px 5px 0 0;
+    margin: 12px 5px 0 0;
         .one,
         .two, 
         .three{
