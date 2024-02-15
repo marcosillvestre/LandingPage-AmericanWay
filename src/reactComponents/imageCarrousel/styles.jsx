@@ -39,7 +39,7 @@ height: max(20rem, 70rem);
 
     }
         @media (max-width: 990px) {
-    width: 50rem;
-    height: 75rem;
+    width: 40rem;
+    height: 55rem;
     }
 `
