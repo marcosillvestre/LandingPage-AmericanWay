@@ -49,7 +49,7 @@ export const Image = styled.img`
     translate: -10% 1.48%;
     @media (max-width: 990px) {
         translate: 4% 1.48%;
-    height: 72rem;
+    max-height: 72rem;
     width: 80vw;
     }
 
