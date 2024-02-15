@@ -149,7 +149,7 @@ export const Wrapper = styled.div`
         position: absolute;
         top: 50px;
         left: 50%;
-        transform: translate(-50%, -40%);
+        transform: translate(-50%, 1.5rem);
     }
     `
 
@@ -158,9 +158,9 @@ export const Logo = styled.img`
     width: 16rem;
     translate: 7% 25%;
     @media (max-width: 990px) {
-        translate: 0 50%;
-        width: 13rem;
-        height: 8rem;
+        translate: 0 7rem;
+        width: 7rem;
+        height: 3rem;
         
     }
 
