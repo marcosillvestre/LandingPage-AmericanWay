@@ -31,7 +31,7 @@ justify-content: space-between;
 
 
 article{
-    margin: 8rem 0 auto 7rem;
+    margin: 10rem 0 auto 15rem;
     display: grid;
     gap: 2rem;
     font-size: 3rem;

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.main`
 display: flex;
 flex-direction: column;
+background-color:#f8f8f8;
 
 header{
 display: flex;
@@ -12,45 +13,45 @@ background-color:#f8f8f8;
 padding: 3rem 1.7rem 3rem 0 ;
 align-items: center;
 height: 16rem;
-z-index: 1;
-
+z-index: 10;
 p{
 font-size: 3.3rem;
 width: 70%;
 padding: 1rem 1.4rem;
 text-align: center;
 }
-.parag{
-width: 40rem;
-display: flex;
-justify-content: center;
-border-right: .12rem solid #737373;
-font-size: 2.5rem;
+    .parag{
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    border-right: .12rem solid #737373;
+    font-size: 2.5rem;
 }
 .test{
-&:hover{
-    transition: .1s ease-in-out ;
-        font-size: 3rem;
-    background-color: #fff;
+    &:hover{
+        transition: .1s ease-in-out ;
+        background-color: #fff;
     color: #f14477;
-}
-}
-    @media (max-width: 990px) {
-    height: 13rem;
-    font-size: 1.7rem;
-        p{
-        font-size: 1.6rem;
-        }
-        .parag{
-        width: 26rem;
-        font-size: 1.4rem;
-            strong{
-                font-size: 2.2rem;
-            }
-        }
+        font-size: 3rem;
     }
 }
+@media (max-width: 750px) {
+height: 13rem;
+font-size: 1.7rem;
+p{
+font-size: 1.6rem;
+}
+.parag{
+width: 26rem;
+font-size: 1.4rem;
+strong{
+font-size: 2.2rem;
+}
+}
+}
+}
 `
+
 
 export const DivButton = styled.div`
 display: flex;
@@ -79,12 +80,11 @@ display: flex;
 justify-content: space-between;
 
 article{
-margin: 8rem 0 auto 7rem;
+margin: 10rem 0 auto 15rem;
 display: grid;
 gap: 2rem;
 font-size: 3rem;
 width: 70rem;
-text-align: justify;
 span {
 display: flex;
 gap: 1rem;

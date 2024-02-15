@@ -17,7 +17,7 @@ translate:  -1.78% 0;
 
 export const Section = styled.section`
     background-color: #007dff;
-    margin: 5rem 0 0rem 13rem;
+    margin: 5rem 0 0rem 20rem;
     border-radius: 4rem;
     color: #fff;
     width: 81rem;

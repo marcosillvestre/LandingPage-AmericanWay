@@ -76,7 +76,7 @@ display: flex;
 flex-direction: column;
 
 article{  
-margin: 4rem 15rem 30rem 0;
+margin: 10rem 20rem 30rem 0;
 position: absolute;
 right: 0;
 
